@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "migrate": "node ./scripts/run-migrations.js"
+    "migrate": "tsx ./scripts/run-migrations.ts"
   },
   "devDependencies": {
     "contentful-cli": "^3.10.4",
@@ -11,5 +11,8 @@
     "cross-env": "^10.1.0",
     "dotenv": "^17.4.2",
     "dotenv-cli": "^11.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^20.19.39"
   }
 }

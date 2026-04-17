@@ -23,6 +23,7 @@ export const TAXONOMY_TERM_FIELD_IDS = {
 } as const;
 
 export const CREATURE_FIELD_IDS = {
+  entryId: "entryId",
   name: "name",
   slug: "slug",
   shortDescription: "shortDescription",

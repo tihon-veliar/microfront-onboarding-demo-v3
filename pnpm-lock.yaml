@@ -90,6 +90,9 @@ importers:
       '@types/node':
         specifier: ^20.19.39
         version: 20.19.39
+      contentful-management:
+        specifier: ^12.3.1
+        version: 12.3.1
     devDependencies:
       contentful-cli:
         specifier: ^3.10.4
@@ -1523,6 +1526,10 @@ packages:
   contentful-management@11.75.0:
     resolution: {integrity: sha512-5j0NDwkdfj5x8qY7Ka6RsVMrjMSdu0clMbABQNqZA1wus9SPVETBQAzdJwHeOAhkLa6avzCcERlr4dN4lU/BOg==}
     engines: {node: '>=18'}
+
+  contentful-management@12.3.1:
+    resolution: {integrity: sha512-Lnx6ieod2z88AhZwcV2kDhN5stctq+0ifflX+xepphPJ1a2RsPNonCAcySabPETuoNox8G0kXo5ebNybrPjOYw==}
+    engines: {node: '>=20'}
 
   contentful-migration@4.32.0:
     resolution: {integrity: sha512-vTBhaCwTjc4Zp2+VopCIYVtboSVYd2Y2Mm4iYpYAcqjral7qoDE8GmR8EJjKv8HjNHeL8d/W2jIH4zNUoZ28Vw==}
@@ -5120,6 +5127,17 @@ snapshots:
       contentful-sdk-core: 9.4.5
       fast-copy: 3.0.2
       globals: 15.15.0
+    transitivePeerDependencies:
+      - debug
+
+  contentful-management@12.3.1:
+    dependencies:
+      '@contentful/rich-text-types': 16.8.5
+      axios: 1.15.0
+      contentful-sdk-core: 9.4.5
+      fast-copy: 3.0.2
+      globals: 15.15.0
+      process: 0.11.10
     transitivePeerDependencies:
       - debug
 

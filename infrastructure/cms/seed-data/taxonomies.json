@@ -1,0 +1,287 @@
+[
+  {
+    "title": "Normal",
+    "slug": "normal",
+    "type": "element"
+  },
+  {
+    "title": "Fighting",
+    "slug": "fighting",
+    "type": "element"
+  },
+  {
+    "title": "Flying",
+    "slug": "flying",
+    "type": "element"
+  },
+  {
+    "title": "Poison",
+    "slug": "poison",
+    "type": "element"
+  },
+  {
+    "title": "Ground",
+    "slug": "ground",
+    "type": "element"
+  },
+  {
+    "title": "Rock",
+    "slug": "rock",
+    "type": "element"
+  },
+  {
+    "title": "Bug",
+    "slug": "bug",
+    "type": "element"
+  },
+  {
+    "title": "Ghost",
+    "slug": "ghost",
+    "type": "element"
+  },
+  {
+    "title": "Steel",
+    "slug": "steel",
+    "type": "element"
+  },
+  {
+    "title": "Fire",
+    "slug": "fire",
+    "type": "element"
+  },
+  {
+    "title": "Water",
+    "slug": "water",
+    "type": "element"
+  },
+  {
+    "title": "Grass",
+    "slug": "grass",
+    "type": "element"
+  },
+  {
+    "title": "Electric",
+    "slug": "electric",
+    "type": "element"
+  },
+  {
+    "title": "Psychic",
+    "slug": "psychic",
+    "type": "element"
+  },
+  {
+    "title": "Ice",
+    "slug": "ice",
+    "type": "element"
+  },
+  {
+    "title": "Dragon",
+    "slug": "dragon",
+    "type": "element"
+  },
+  {
+    "title": "Dark",
+    "slug": "dark",
+    "type": "element"
+  },
+  {
+    "title": "Fairy",
+    "slug": "fairy",
+    "type": "element"
+  },
+  {
+    "title": "Stellar",
+    "slug": "stellar",
+    "type": "element"
+  },
+  {
+    "title": "Cave",
+    "slug": "cave",
+    "type": "habitat"
+  },
+  {
+    "title": "Forest",
+    "slug": "forest",
+    "type": "habitat"
+  },
+  {
+    "title": "Grassland",
+    "slug": "grassland",
+    "type": "habitat"
+  },
+  {
+    "title": "Mountain",
+    "slug": "mountain",
+    "type": "habitat"
+  },
+  {
+    "title": "Rare",
+    "slug": "rare",
+    "type": "habitat"
+  },
+  {
+    "title": "Rough Terrain",
+    "slug": "rough-terrain",
+    "type": "habitat"
+  },
+  {
+    "title": "Sea",
+    "slug": "sea",
+    "type": "habitat"
+  },
+  {
+    "title": "Urban",
+    "slug": "urban",
+    "type": "habitat"
+  },
+  {
+    "title": "Waters Edge",
+    "slug": "waters-edge",
+    "type": "habitat"
+  },
+  {
+    "title": "Ball",
+    "slug": "ball",
+    "type": "shape"
+  },
+  {
+    "title": "Squiggle",
+    "slug": "squiggle",
+    "type": "shape"
+  },
+  {
+    "title": "Fish",
+    "slug": "fish",
+    "type": "shape"
+  },
+  {
+    "title": "Arms",
+    "slug": "arms",
+    "type": "shape"
+  },
+  {
+    "title": "Blob",
+    "slug": "blob",
+    "type": "shape"
+  },
+  {
+    "title": "Upright",
+    "slug": "upright",
+    "type": "shape"
+  },
+  {
+    "title": "Legs",
+    "slug": "legs",
+    "type": "shape"
+  },
+  {
+    "title": "Quadruped",
+    "slug": "quadruped",
+    "type": "shape"
+  },
+  {
+    "title": "Wings",
+    "slug": "wings",
+    "type": "shape"
+  },
+  {
+    "title": "Tentacles",
+    "slug": "tentacles",
+    "type": "shape"
+  },
+  {
+    "title": "Heads",
+    "slug": "heads",
+    "type": "shape"
+  },
+  {
+    "title": "Humanoid",
+    "slug": "humanoid",
+    "type": "shape"
+  },
+  {
+    "title": "Bug Wings",
+    "slug": "bug-wings",
+    "type": "shape"
+  },
+  {
+    "title": "Armor",
+    "slug": "armor",
+    "type": "shape"
+  },
+  {
+    "title": "Monster",
+    "slug": "monster",
+    "type": "egg-group"
+  },
+  {
+    "title": "Water1",
+    "slug": "water1",
+    "type": "egg-group"
+  },
+  {
+    "title": "Bug",
+    "slug": "bug",
+    "type": "egg-group"
+  },
+  {
+    "title": "Flying",
+    "slug": "flying",
+    "type": "egg-group"
+  },
+  {
+    "title": "Ground",
+    "slug": "ground",
+    "type": "egg-group"
+  },
+  {
+    "title": "Fairy",
+    "slug": "fairy",
+    "type": "egg-group"
+  },
+  {
+    "title": "Plant",
+    "slug": "plant",
+    "type": "egg-group"
+  },
+  {
+    "title": "Humanshape",
+    "slug": "humanshape",
+    "type": "egg-group"
+  },
+  {
+    "title": "Water3",
+    "slug": "water3",
+    "type": "egg-group"
+  },
+  {
+    "title": "Mineral",
+    "slug": "mineral",
+    "type": "egg-group"
+  },
+  {
+    "title": "Indeterminate",
+    "slug": "indeterminate",
+    "type": "egg-group"
+  },
+  {
+    "title": "Water2",
+    "slug": "water2",
+    "type": "egg-group"
+  },
+  {
+    "title": "Ditto",
+    "slug": "ditto",
+    "type": "egg-group"
+  },
+  {
+    "title": "Dragon",
+    "slug": "dragon",
+    "type": "egg-group"
+  },
+  {
+    "title": "No Eggs",
+    "slug": "no-eggs",
+    "type": "egg-group"
+  }
+]

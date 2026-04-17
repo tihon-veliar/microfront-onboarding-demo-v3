@@ -1,0 +1,2549 @@
+[
+  {
+    "entryId": "creature-136",
+    "assetId": "creature-image-136",
+    "name": "Flareon",
+    "slug": "flareon",
+    "shortDescription": "When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
+    "description": "When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
+    "creatureIndex": 136,
+    "height": 9,
+    "weight": 250,
+    "abilities": [
+      "flash-fire",
+      "guts"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/flareon",
+    "taxonomies": [
+      "element-fire",
+      "habitat-urban",
+      "shape-quadruped",
+      "egg-group-ground"
+    ],
+    "rating": 2
+  },
+  {
+    "entryId": "creature-137",
+    "assetId": "creature-image-137",
+    "name": "Porygon",
+    "slug": "porygon",
+    "shortDescription": "A POKéMON that consists entirely of programming code. Capable of moving freely in cyberspace.",
+    "description": "A POKéMON that consists entirely of programming code. Capable of moving freely in cyberspace.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
+    "creatureIndex": 137,
+    "height": 8,
+    "weight": 365,
+    "abilities": [
+      "trace",
+      "download",
+      "analytic"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/porygon",
+    "taxonomies": [
+      "element-normal",
+      "habitat-urban",
+      "shape-legs",
+      "egg-group-mineral"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-138",
+    "assetId": "creature-image-138",
+    "name": "Omanyte",
+    "slug": "omanyte",
+    "shortDescription": "Although long extinct, in rare cases, it can be genetically resurrected from fossils.",
+    "description": "Although long extinct, in rare cases, it can be genetically resurrected from fossils.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
+    "creatureIndex": 138,
+    "height": 4,
+    "weight": 75,
+    "abilities": [
+      "swift-swim",
+      "shell-armor",
+      "weak-armor"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/omanyte",
+    "taxonomies": [
+      "element-rock",
+      "element-water",
+      "habitat-sea",
+      "shape-tentacles",
+      "egg-group-water1",
+      "egg-group-water3"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-139",
+    "assetId": "creature-image-139",
+    "name": "Omastar",
+    "slug": "omastar",
+    "shortDescription": "A prehistoric POKéMON that died out when its heavy shell made it impossible to catch prey.",
+    "description": "A prehistoric POKéMON that died out when its heavy shell made it impossible to catch prey.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
+    "creatureIndex": 139,
+    "height": 10,
+    "weight": 350,
+    "abilities": [
+      "swift-swim",
+      "shell-armor",
+      "weak-armor"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/omastar",
+    "taxonomies": [
+      "element-rock",
+      "element-water",
+      "habitat-sea",
+      "shape-tentacles",
+      "egg-group-water1",
+      "egg-group-water3"
+    ],
+    "rating": 3
+  },
+  {
+    "entryId": "creature-140",
+    "assetId": "creature-image-140",
+    "name": "Kabuto",
+    "slug": "kabuto",
+    "shortDescription": "A POKéMON that was resurrected from a fossil found in what was once the ocean floor eons ago.",
+    "description": "A POKéMON that was resurrected from a fossil found in what was once the ocean floor eons ago.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
+    "creatureIndex": 140,
+    "height": 5,
+    "weight": 115,
+    "abilities": [
+      "swift-swim",
+      "battle-armor",
+      "weak-armor"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/kabuto",
+    "taxonomies": [
+      "element-rock",
+      "element-water",
+      "habitat-sea",
+      "shape-armor",
+      "egg-group-water1",
+      "egg-group-water3"
+    ],
+    "rating": 2
+  },
+  {
+    "entryId": "creature-141",
+    "assetId": "creature-image-141",
+    "name": "Kabutops",
+    "slug": "kabutops",
+    "shortDescription": "Its sleek shape is perfect for swim­ ming. It slashes prey with its claws and drains the body fluids.",
+    "description": "Its sleek shape is perfect for swim­ ming. It slashes prey with its claws and drains the body fluids.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
+    "creatureIndex": 141,
+    "height": 13,
+    "weight": 405,
+    "abilities": [
+      "swift-swim",
+      "battle-armor",
+      "weak-armor"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/kabutops",
+    "taxonomies": [
+      "element-rock",
+      "element-water",
+      "habitat-sea",
+      "shape-upright",
+      "egg-group-water1",
+      "egg-group-water3"
+    ],
+    "rating": 3
+  },
+  {
+    "entryId": "creature-142",
+    "assetId": "creature-image-142",
+    "name": "Aerodactyl",
+    "slug": "aerodactyl",
+    "shortDescription": "A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades.",
+    "description": "A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
+    "creatureIndex": 142,
+    "height": 18,
+    "weight": 590,
+    "abilities": [
+      "rock-head",
+      "pressure",
+      "unnerve"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/aerodactyl",
+    "taxonomies": [
+      "element-rock",
+      "element-flying",
+      "habitat-mountain",
+      "shape-wings",
+      "egg-group-flying"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-143",
+    "assetId": "creature-image-143",
+    "name": "Snorlax",
+    "slug": "snorlax",
+    "shortDescription": "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
+    "description": "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+    "creatureIndex": 143,
+    "height": 21,
+    "weight": 4600,
+    "abilities": [
+      "immunity",
+      "thick-fat",
+      "gluttony"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/snorlax",
+    "taxonomies": [
+      "element-normal",
+      "habitat-mountain",
+      "shape-humanoid",
+      "egg-group-monster"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-144",
+    "assetId": "creature-image-144",
+    "name": "Articuno",
+    "slug": "articuno",
+    "shortDescription": "A legendary bird POKéMON that is said to appear to doomed people who are lost in icy mountains.",
+    "description": "A legendary bird POKéMON that is said to appear to doomed people who are lost in icy mountains.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+    "creatureIndex": 144,
+    "height": 17,
+    "weight": 554,
+    "abilities": [
+      "pressure",
+      "snow-cloak"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/articuno",
+    "taxonomies": [
+      "element-ice",
+      "element-flying",
+      "habitat-rare",
+      "shape-wings",
+      "egg-group-no-eggs"
+    ],
+    "rating": 3
+  },
+  {
+    "entryId": "creature-145",
+    "assetId": "creature-image-145",
+    "name": "Zapdos",
+    "slug": "zapdos",
+    "shortDescription": "A legendary bird POKéMON that is said to appear from clouds while dropping enormous lightning bolts.",
+    "description": "A legendary bird POKéMON that is said to appear from clouds while dropping enormous lightning bolts.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+    "creatureIndex": 145,
+    "height": 16,
+    "weight": 526,
+    "abilities": [
+      "pressure",
+      "static"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/zapdos",
+    "taxonomies": [
+      "element-electric",
+      "element-flying",
+      "habitat-rare",
+      "shape-wings",
+      "egg-group-no-eggs"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-146",
+    "assetId": "creature-image-146",
+    "name": "Moltres",
+    "slug": "moltres",
+    "shortDescription": "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.",
+    "description": "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+    "creatureIndex": 146,
+    "height": 20,
+    "weight": 600,
+    "abilities": [
+      "pressure",
+      "flame-body"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/moltres",
+    "taxonomies": [
+      "element-fire",
+      "element-flying",
+      "habitat-rare",
+      "shape-wings",
+      "egg-group-no-eggs"
+    ],
+    "rating": 3
+  },
+  {
+    "entryId": "creature-147",
+    "assetId": "creature-image-147",
+    "name": "Dratini",
+    "slug": "dratini",
+    "shortDescription": "Long considered a mythical POKéMON until recently when a small colony was found living underwater.",
+    "description": "Long considered a mythical POKéMON until recently when a small colony was found living underwater.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
+    "creatureIndex": 147,
+    "height": 18,
+    "weight": 33,
+    "abilities": [
+      "shed-skin",
+      "marvel-scale"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/dratini",
+    "taxonomies": [
+      "element-dragon",
+      "habitat-waters-edge",
+      "shape-squiggle",
+      "egg-group-water1",
+      "egg-group-dragon"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-148",
+    "assetId": "creature-image-148",
+    "name": "Dragonair",
+    "slug": "dragonair",
+    "shortDescription": "A mystical POKéMON that exudes a gentle aura. Has the ability to change climate conditions.",
+    "description": "A mystical POKéMON that exudes a gentle aura. Has the ability to change climate conditions.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
+    "creatureIndex": 148,
+    "height": 40,
+    "weight": 165,
+    "abilities": [
+      "shed-skin",
+      "marvel-scale"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/dragonair",
+    "taxonomies": [
+      "element-dragon",
+      "habitat-waters-edge",
+      "shape-squiggle",
+      "egg-group-water1",
+      "egg-group-dragon"
+    ],
+    "rating": 2
+  },
+  {
+    "entryId": "creature-149",
+    "assetId": "creature-image-149",
+    "name": "Dragonite",
+    "slug": "dragonite",
+    "shortDescription": "An extremely rarely seen marine POKéMON. Its intelligence is said to match that of humans.",
+    "description": "An extremely rarely seen marine POKéMON. Its intelligence is said to match that of humans.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+    "creatureIndex": 149,
+    "height": 22,
+    "weight": 2100,
+    "abilities": [
+      "inner-focus",
+      "multiscale"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/dragonite",
+    "taxonomies": [
+      "element-dragon",
+      "element-flying",
+      "habitat-waters-edge",
+      "shape-upright",
+      "egg-group-water1",
+      "egg-group-dragon"
+    ],
+    "rating": 2
+  },
+  {
+    "entryId": "creature-150",
+    "assetId": "creature-image-150",
+    "name": "Mewtwo",
+    "slug": "mewtwo",
+    "shortDescription": "It was created by a scientist after years of horrific gene splicing and DNA engineering experiments.",
+    "description": "It was created by a scientist after years of horrific gene splicing and DNA engineering experiments.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+    "creatureIndex": 150,
+    "height": 20,
+    "weight": 1220,
+    "abilities": [
+      "pressure",
+      "unnerve"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/mewtwo",
+    "taxonomies": [
+      "element-psychic",
+      "habitat-rare",
+      "shape-upright",
+      "egg-group-no-eggs"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-151",
+    "assetId": "creature-image-151",
+    "name": "Mew",
+    "slug": "mew",
+    "shortDescription": "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",
+    "description": "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
+    "creatureIndex": 151,
+    "height": 4,
+    "weight": 40,
+    "abilities": [
+      "synchronize"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/mew",
+    "taxonomies": [
+      "element-psychic",
+      "habitat-rare",
+      "shape-upright",
+      "egg-group-no-eggs"
+    ],
+    "rating": 2
+  },
+  {
+    "entryId": "creature-152",
+    "assetId": "creature-image-152",
+    "name": "Chikorita",
+    "slug": "chikorita",
+    "shortDescription": "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up the sun's rays.",
+    "description": "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up the sun's rays.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/152.png",
+    "creatureIndex": 152,
+    "height": 9,
+    "weight": 64,
+    "abilities": [
+      "overgrow",
+      "leaf-guard"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/chikorita",
+    "taxonomies": [
+      "element-grass",
+      "habitat-grassland",
+      "shape-quadruped",
+      "egg-group-monster",
+      "egg-group-plant"
+    ],
+    "rating": 3
+  },
+  {
+    "entryId": "creature-153",
+    "assetId": "creature-image-153",
+    "name": "Bayleef",
+    "slug": "bayleef",
+    "shortDescription": "The scent of spices comes from around its neck. Somehow, sniffing it makes you want to fight.",
+    "description": "The scent of spices comes from around its neck. Somehow, sniffing it makes you want to fight.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/153.png",
+    "creatureIndex": 153,
+    "height": 12,
+    "weight": 158,
+    "abilities": [
+      "overgrow",
+      "leaf-guard"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/bayleef",
+    "taxonomies": [
+      "element-grass",
+      "habitat-grassland",
+      "shape-quadruped",
+      "egg-group-monster",
+      "egg-group-plant"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-154",
+    "assetId": "creature-image-154",
+    "name": "Meganium",
+    "slug": "meganium",
+    "shortDescription": "The aroma that rises from its petals contains a substance that calms aggressive feelings.",
+    "description": "The aroma that rises from its petals contains a substance that calms aggressive feelings.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/154.png",
+    "creatureIndex": 154,
+    "height": 18,
+    "weight": 1005,
+    "abilities": [
+      "overgrow",
+      "leaf-guard"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/meganium",
+    "taxonomies": [
+      "element-grass",
+      "habitat-grassland",
+      "shape-quadruped",
+      "egg-group-monster",
+      "egg-group-plant"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-155",
+    "assetId": "creature-image-155",
+    "name": "Cyndaquil",
+    "slug": "cyndaquil",
+    "shortDescription": "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
+    "description": "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/155.png",
+    "creatureIndex": 155,
+    "height": 5,
+    "weight": 79,
+    "abilities": [
+      "blaze",
+      "flash-fire"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/cyndaquil",
+    "taxonomies": [
+      "element-fire",
+      "habitat-grassland",
+      "shape-humanoid",
+      "egg-group-ground"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-156",
+    "assetId": "creature-image-156",
+    "name": "Quilava",
+    "slug": "quilava",
+    "shortDescription": "Be careful if it turns its back during battle. It means that it will attack with the fire on its back.",
+    "description": "Be careful if it turns its back during battle. It means that it will attack with the fire on its back.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/156.png",
+    "creatureIndex": 156,
+    "height": 9,
+    "weight": 190,
+    "abilities": [
+      "blaze",
+      "flash-fire"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/quilava",
+    "taxonomies": [
+      "element-fire",
+      "habitat-grassland",
+      "shape-quadruped",
+      "egg-group-ground"
+    ],
+    "rating": 2
+  },
+  {
+    "entryId": "creature-157",
+    "assetId": "creature-image-157",
+    "name": "Typhlosion",
+    "slug": "typhlosion",
+    "shortDescription": "If its rage peaks, it becomes so hot that anything that touches it will instantly go up in flames.",
+    "description": "If its rage peaks, it becomes so hot that anything that touches it will instantly go up in flames.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/157.png",
+    "creatureIndex": 157,
+    "height": 17,
+    "weight": 795,
+    "abilities": [
+      "blaze",
+      "flash-fire"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/typhlosion",
+    "taxonomies": [
+      "element-fire",
+      "habitat-grassland",
+      "shape-quadruped",
+      "egg-group-ground"
+    ],
+    "rating": 2
+  },
+  {
+    "entryId": "creature-158",
+    "assetId": "creature-image-158",
+    "name": "Totodile",
+    "slug": "totodile",
+    "shortDescription": "Its well-developed jaws are powerful and capable of crushing anything. Even its trainer must be careful.",
+    "description": "Its well-developed jaws are powerful and capable of crushing anything. Even its trainer must be careful.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/158.png",
+    "creatureIndex": 158,
+    "height": 6,
+    "weight": 95,
+    "abilities": [
+      "torrent",
+      "sheer-force"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/totodile",
+    "taxonomies": [
+      "element-water",
+      "habitat-waters-edge",
+      "shape-upright",
+      "egg-group-monster",
+      "egg-group-water1"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-159",
+    "assetId": "creature-image-159",
+    "name": "Croconaw",
+    "slug": "croconaw",
+    "shortDescription": "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
+    "description": "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/159.png",
+    "creatureIndex": 159,
+    "height": 11,
+    "weight": 250,
+    "abilities": [
+      "torrent",
+      "sheer-force"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/croconaw",
+    "taxonomies": [
+      "element-water",
+      "habitat-waters-edge",
+      "shape-upright",
+      "egg-group-monster",
+      "egg-group-water1"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-160",
+    "assetId": "creature-image-160",
+    "name": "Feraligatr",
+    "slug": "feraligatr",
+    "shortDescription": "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.",
+    "description": "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/160.png",
+    "creatureIndex": 160,
+    "height": 23,
+    "weight": 888,
+    "abilities": [
+      "torrent",
+      "sheer-force"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/feraligatr",
+    "taxonomies": [
+      "element-water",
+      "habitat-waters-edge",
+      "shape-upright",
+      "egg-group-monster",
+      "egg-group-water1"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-161",
+    "assetId": "creature-image-161",
+    "name": "Sentret",
+    "slug": "sentret",
+    "shortDescription": "A very cautious POKéMON, it raises itself up using its tail to get a better view of its surroundings.",
+    "description": "A very cautious POKéMON, it raises itself up using its tail to get a better view of its surroundings.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/161.png",
+    "creatureIndex": 161,
+    "height": 8,
+    "weight": 60,
+    "abilities": [
+      "run-away",
+      "keen-eye",
+      "frisk"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/sentret",
+    "taxonomies": [
+      "element-normal",
+      "habitat-grassland",
+      "shape-quadruped",
+      "egg-group-ground"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-162",
+    "assetId": "creature-image-162",
+    "name": "Furret",
+    "slug": "furret",
+    "shortDescription": "It makes a nest to suit its long and skinny body. The nest is impossible for other POKéMON to enter.",
+    "description": "It makes a nest to suit its long and skinny body. The nest is impossible for other POKéMON to enter.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/162.png",
+    "creatureIndex": 162,
+    "height": 18,
+    "weight": 325,
+    "abilities": [
+      "run-away",
+      "keen-eye",
+      "frisk"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/furret",
+    "taxonomies": [
+      "element-normal",
+      "habitat-grassland",
+      "shape-quadruped",
+      "egg-group-ground"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-163",
+    "assetId": "creature-image-163",
+    "name": "Hoothoot",
+    "slug": "hoothoot",
+    "shortDescription": "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
+    "description": "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/163.png",
+    "creatureIndex": 163,
+    "height": 7,
+    "weight": 212,
+    "abilities": [
+      "insomnia",
+      "keen-eye",
+      "tinted-lens"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/hoothoot",
+    "taxonomies": [
+      "element-normal",
+      "element-flying",
+      "habitat-forest",
+      "shape-wings",
+      "egg-group-flying"
+    ],
+    "rating": 2
+  },
+  {
+    "entryId": "creature-164",
+    "assetId": "creature-image-164",
+    "name": "Noctowl",
+    "slug": "noctowl",
+    "shortDescription": "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
+    "description": "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/164.png",
+    "creatureIndex": 164,
+    "height": 16,
+    "weight": 408,
+    "abilities": [
+      "insomnia",
+      "keen-eye",
+      "tinted-lens"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/noctowl",
+    "taxonomies": [
+      "element-normal",
+      "element-flying",
+      "habitat-forest",
+      "shape-wings",
+      "egg-group-flying"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-165",
+    "assetId": "creature-image-165",
+    "name": "Ledyba",
+    "slug": "ledyba",
+    "shortDescription": "It is very timid. It will be afraid to move if it is alone. But it will be active if it is in a group.",
+    "description": "It is very timid. It will be afraid to move if it is alone. But it will be active if it is in a group.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/165.png",
+    "creatureIndex": 165,
+    "height": 10,
+    "weight": 108,
+    "abilities": [
+      "swarm",
+      "early-bird",
+      "rattled"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/ledyba",
+    "taxonomies": [
+      "element-bug",
+      "element-flying",
+      "habitat-forest",
+      "shape-wings",
+      "egg-group-bug"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-166",
+    "assetId": "creature-image-166",
+    "name": "Ledian",
+    "slug": "ledian",
+    "shortDescription": "When the stars flicker in the night sky, it flutters about, scattering a glowing powder.",
+    "description": "When the stars flicker in the night sky, it flutters about, scattering a glowing powder.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/166.png",
+    "creatureIndex": 166,
+    "height": 14,
+    "weight": 356,
+    "abilities": [
+      "swarm",
+      "early-bird",
+      "iron-fist"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/ledian",
+    "taxonomies": [
+      "element-bug",
+      "element-flying",
+      "habitat-forest",
+      "shape-wings",
+      "egg-group-bug"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-167",
+    "assetId": "creature-image-167",
+    "name": "Spinarak",
+    "slug": "spinarak",
+    "shortDescription": "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close.",
+    "description": "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/167.png",
+    "creatureIndex": 167,
+    "height": 5,
+    "weight": 85,
+    "abilities": [
+      "swarm",
+      "insomnia",
+      "sniper"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/spinarak",
+    "taxonomies": [
+      "element-bug",
+      "element-poison",
+      "habitat-forest",
+      "shape-armor",
+      "egg-group-bug"
+    ],
+    "rating": 2
+  },
+  {
+    "entryId": "creature-168",
+    "assetId": "creature-image-168",
+    "name": "Ariados",
+    "slug": "ariados",
+    "shortDescription": "It spins string not only from its rear but also from its mouth. It is hard to tell which end is which.",
+    "description": "It spins string not only from its rear but also from its mouth. It is hard to tell which end is which.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/168.png",
+    "creatureIndex": 168,
+    "height": 11,
+    "weight": 335,
+    "abilities": [
+      "swarm",
+      "insomnia",
+      "sniper"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/ariados",
+    "taxonomies": [
+      "element-bug",
+      "element-poison",
+      "habitat-forest",
+      "shape-armor",
+      "egg-group-bug"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-169",
+    "assetId": "creature-image-169",
+    "name": "Crobat",
+    "slug": "crobat",
+    "shortDescription": "It flies so si­ lently through the dark on its four wings that it may not be noticed even when nearby.",
+    "description": "It flies so si­ lently through the dark on its four wings that it may not be noticed even when nearby.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/169.png",
+    "creatureIndex": 169,
+    "height": 18,
+    "weight": 750,
+    "abilities": [
+      "inner-focus",
+      "infiltrator"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/crobat",
+    "taxonomies": [
+      "element-poison",
+      "element-flying",
+      "habitat-cave",
+      "shape-bug-wings",
+      "egg-group-flying"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-170",
+    "assetId": "creature-image-170",
+    "name": "Chinchou",
+    "slug": "chinchou",
+    "shortDescription": "Chinchou blink their shining antennae at one another to claim their respective turf.",
+    "description": "Chinchou blink their shining antennae at one another to claim their respective turf.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/170.png",
+    "creatureIndex": 170,
+    "height": 5,
+    "weight": 120,
+    "abilities": [
+      "volt-absorb",
+      "illuminate",
+      "water-absorb"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/chinchou",
+    "taxonomies": [
+      "element-water",
+      "element-electric",
+      "habitat-sea",
+      "shape-fish",
+      "egg-group-water2"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-171",
+    "assetId": "creature-image-171",
+    "name": "Lanturn",
+    "slug": "lanturn",
+    "shortDescription": "The light it emits is so bright that it can illuminate the sea's surface from a depth of over three miles.",
+    "description": "The light it emits is so bright that it can illuminate the sea's surface from a depth of over three miles.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/171.png",
+    "creatureIndex": 171,
+    "height": 12,
+    "weight": 225,
+    "abilities": [
+      "volt-absorb",
+      "illuminate",
+      "water-absorb"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/lanturn",
+    "taxonomies": [
+      "element-water",
+      "element-electric",
+      "habitat-sea",
+      "shape-fish",
+      "egg-group-water2"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-172",
+    "assetId": "creature-image-172",
+    "name": "Pichu",
+    "slug": "pichu",
+    "shortDescription": "It is not yet skilled at storing electricity. It may send out a jolt if amused or startled.",
+    "description": "It is not yet skilled at storing electricity. It may send out a jolt if amused or startled.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/172.png",
+    "creatureIndex": 172,
+    "height": 3,
+    "weight": 20,
+    "abilities": [
+      "static",
+      "lightning-rod"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/pichu",
+    "taxonomies": [
+      "element-electric",
+      "habitat-forest",
+      "shape-quadruped",
+      "egg-group-no-eggs"
+    ],
+    "rating": 3
+  },
+  {
+    "entryId": "creature-173",
+    "assetId": "creature-image-173",
+    "name": "Cleffa",
+    "slug": "cleffa",
+    "shortDescription": "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
+    "description": "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/173.png",
+    "creatureIndex": 173,
+    "height": 3,
+    "weight": 30,
+    "abilities": [
+      "cute-charm",
+      "magic-guard",
+      "friend-guard"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/cleffa",
+    "taxonomies": [
+      "element-fairy",
+      "habitat-mountain",
+      "shape-upright",
+      "egg-group-no-eggs"
+    ],
+    "rating": 3
+  },
+  {
+    "entryId": "creature-174",
+    "assetId": "creature-image-174",
+    "name": "Igglybuff",
+    "slug": "igglybuff",
+    "shortDescription": "It has a very soft body. If it starts to roll, it will bounce all over and be impossible to stop.",
+    "description": "It has a very soft body. If it starts to roll, it will bounce all over and be impossible to stop.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/174.png",
+    "creatureIndex": 174,
+    "height": 3,
+    "weight": 10,
+    "abilities": [
+      "cute-charm",
+      "competitive",
+      "friend-guard"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/igglybuff",
+    "taxonomies": [
+      "element-normal",
+      "element-fairy",
+      "habitat-grassland",
+      "shape-humanoid",
+      "egg-group-no-eggs"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-175",
+    "assetId": "creature-image-175",
+    "name": "Togepi",
+    "slug": "togepi",
+    "shortDescription": "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
+    "description": "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/175.png",
+    "creatureIndex": 175,
+    "height": 3,
+    "weight": 15,
+    "abilities": [
+      "hustle",
+      "serene-grace",
+      "super-luck"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/togepi",
+    "taxonomies": [
+      "element-fairy",
+      "habitat-forest",
+      "shape-humanoid",
+      "egg-group-no-eggs"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-176",
+    "assetId": "creature-image-176",
+    "name": "Togetic",
+    "slug": "togetic",
+    "shortDescription": "They say that it will appear before kindhearted, car­ ing people and shower them with happiness.",
+    "description": "They say that it will appear before kindhearted, car­ ing people and shower them with happiness.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/176.png",
+    "creatureIndex": 176,
+    "height": 6,
+    "weight": 32,
+    "abilities": [
+      "hustle",
+      "serene-grace",
+      "super-luck"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/togetic",
+    "taxonomies": [
+      "element-fairy",
+      "element-flying",
+      "habitat-forest",
+      "shape-humanoid",
+      "egg-group-flying",
+      "egg-group-fairy"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-177",
+    "assetId": "creature-image-177",
+    "name": "Natu",
+    "slug": "natu",
+    "shortDescription": "Because its wings aren't yet fully grown, it has to hop to get around. It is always star­ ing at something.",
+    "description": "Because its wings aren't yet fully grown, it has to hop to get around. It is always star­ ing at something.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/177.png",
+    "creatureIndex": 177,
+    "height": 2,
+    "weight": 20,
+    "abilities": [
+      "synchronize",
+      "early-bird",
+      "magic-bounce"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/natu",
+    "taxonomies": [
+      "element-psychic",
+      "element-flying",
+      "habitat-forest",
+      "shape-wings",
+      "egg-group-flying"
+    ],
+    "rating": 2
+  },
+  {
+    "entryId": "creature-178",
+    "assetId": "creature-image-178",
+    "name": "Xatu",
+    "slug": "xatu",
+    "shortDescription": "They say that it stays still and quiet because it is seeing both the past and future at the same time.",
+    "description": "They say that it stays still and quiet because it is seeing both the past and future at the same time.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/178.png",
+    "creatureIndex": 178,
+    "height": 15,
+    "weight": 150,
+    "abilities": [
+      "synchronize",
+      "early-bird",
+      "magic-bounce"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/xatu",
+    "taxonomies": [
+      "element-psychic",
+      "element-flying",
+      "habitat-forest",
+      "shape-wings",
+      "egg-group-flying"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-179",
+    "assetId": "creature-image-179",
+    "name": "Mareep",
+    "slug": "mareep",
+    "shortDescription": "If static elec­ tricity builds in its body, its fleece doubles in volume. Touching it will shock you.",
+    "description": "If static elec­ tricity builds in its body, its fleece doubles in volume. Touching it will shock you.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/179.png",
+    "creatureIndex": 179,
+    "height": 6,
+    "weight": 78,
+    "abilities": [
+      "static",
+      "plus"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/mareep",
+    "taxonomies": [
+      "element-electric",
+      "habitat-grassland",
+      "shape-quadruped",
+      "egg-group-monster",
+      "egg-group-ground"
+    ],
+    "rating": 3
+  },
+  {
+    "entryId": "creature-180",
+    "assetId": "creature-image-180",
+    "name": "Flaaffy",
+    "slug": "flaaffy",
+    "shortDescription": "As a result of storing too much electricity, it developed patches where even downy wool won't grow.",
+    "description": "As a result of storing too much electricity, it developed patches where even downy wool won't grow.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/180.png",
+    "creatureIndex": 180,
+    "height": 8,
+    "weight": 133,
+    "abilities": [
+      "static",
+      "plus"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/flaaffy",
+    "taxonomies": [
+      "element-electric",
+      "habitat-grassland",
+      "shape-upright",
+      "egg-group-monster",
+      "egg-group-ground"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-181",
+    "assetId": "creature-image-181",
+    "name": "Ampharos",
+    "slug": "ampharos",
+    "shortDescription": "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+    "description": "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/181.png",
+    "creatureIndex": 181,
+    "height": 14,
+    "weight": 615,
+    "abilities": [
+      "static",
+      "plus"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/ampharos",
+    "taxonomies": [
+      "element-electric",
+      "habitat-grassland",
+      "shape-upright",
+      "egg-group-monster",
+      "egg-group-ground"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-182",
+    "assetId": "creature-image-182",
+    "name": "Bellossom",
+    "slug": "bellossom",
+    "shortDescription": "Plentiful in the tropics. When it dances, its petals rub together and make a pleasant ringing sound.",
+    "description": "Plentiful in the tropics. When it dances, its petals rub together and make a pleasant ringing sound.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/182.png",
+    "creatureIndex": 182,
+    "height": 4,
+    "weight": 58,
+    "abilities": [
+      "chlorophyll",
+      "healer"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/bellossom",
+    "taxonomies": [
+      "element-grass",
+      "habitat-grassland",
+      "shape-humanoid",
+      "egg-group-plant"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-183",
+    "assetId": "creature-image-183",
+    "name": "Marill",
+    "slug": "marill",
+    "shortDescription": "The tip of its tail, which con­ tains oil that is lighter than wa­ ter, lets it swim without drowning.",
+    "description": "The tip of its tail, which con­ tains oil that is lighter than wa­ ter, lets it swim without drowning.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/183.png",
+    "creatureIndex": 183,
+    "height": 4,
+    "weight": 85,
+    "abilities": [
+      "thick-fat",
+      "huge-power",
+      "sap-sipper"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/marill",
+    "taxonomies": [
+      "element-water",
+      "element-fairy",
+      "habitat-waters-edge",
+      "shape-upright",
+      "egg-group-water1",
+      "egg-group-fairy"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-184",
+    "assetId": "creature-image-184",
+    "name": "Azumarill",
+    "slug": "azumarill",
+    "shortDescription": "It lives in water virtually all day long. Its body color and pattern act as camouflage that makes it tough for enemies to spot in water.",
+    "description": "It lives in water virtually all day long. Its body color and pattern act as camouflage that makes it tough for enemies to spot in water.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/184.png",
+    "creatureIndex": 184,
+    "height": 8,
+    "weight": 285,
+    "abilities": [
+      "thick-fat",
+      "huge-power",
+      "sap-sipper"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/azumarill",
+    "taxonomies": [
+      "element-water",
+      "element-fairy",
+      "habitat-waters-edge",
+      "shape-upright",
+      "egg-group-water1",
+      "egg-group-fairy"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-185",
+    "assetId": "creature-image-185",
+    "name": "Sudowoodo",
+    "slug": "sudowoodo",
+    "shortDescription": "Although it always pretends to be a tree, its composi­ tion appears to be closer to a rock than a plant.",
+    "description": "Although it always pretends to be a tree, its composi­ tion appears to be closer to a rock than a plant.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/185.png",
+    "creatureIndex": 185,
+    "height": 12,
+    "weight": 380,
+    "abilities": [
+      "sturdy",
+      "rock-head",
+      "rattled"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/sudowoodo",
+    "taxonomies": [
+      "element-rock",
+      "habitat-forest",
+      "shape-humanoid",
+      "egg-group-mineral"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-186",
+    "assetId": "creature-image-186",
+    "name": "Politoed",
+    "slug": "politoed",
+    "shortDescription": "If POLIWAG and POLIWHIRL hear its echoing cry, they respond by gather­ ing from far and wide.",
+    "description": "If POLIWAG and POLIWHIRL hear its echoing cry, they respond by gather­ ing from far and wide.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/186.png",
+    "creatureIndex": 186,
+    "height": 11,
+    "weight": 339,
+    "abilities": [
+      "water-absorb",
+      "damp",
+      "drizzle"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/politoed",
+    "taxonomies": [
+      "element-water",
+      "habitat-waters-edge",
+      "shape-humanoid",
+      "egg-group-water1"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-187",
+    "assetId": "creature-image-187",
+    "name": "Hoppip",
+    "slug": "hoppip",
+    "shortDescription": "To keep from being blown away by the wind, they gather in clusters. They do enjoy gentle breezes, though.",
+    "description": "To keep from being blown away by the wind, they gather in clusters. They do enjoy gentle breezes, though.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/187.png",
+    "creatureIndex": 187,
+    "height": 4,
+    "weight": 5,
+    "abilities": [
+      "chlorophyll",
+      "leaf-guard",
+      "infiltrator"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/hoppip",
+    "taxonomies": [
+      "element-grass",
+      "element-flying",
+      "habitat-grassland",
+      "shape-upright",
+      "egg-group-fairy",
+      "egg-group-plant"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-188",
+    "assetId": "creature-image-188",
+    "name": "Skiploom",
+    "slug": "skiploom",
+    "shortDescription": "The bloom on top of its head opens and closes as the temperature fluc­ tuates up and down.",
+    "description": "The bloom on top of its head opens and closes as the temperature fluc­ tuates up and down.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/188.png",
+    "creatureIndex": 188,
+    "height": 6,
+    "weight": 10,
+    "abilities": [
+      "chlorophyll",
+      "leaf-guard",
+      "infiltrator"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/skiploom",
+    "taxonomies": [
+      "element-grass",
+      "element-flying",
+      "habitat-grassland",
+      "shape-upright",
+      "egg-group-fairy",
+      "egg-group-plant"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-189",
+    "assetId": "creature-image-189",
+    "name": "Jumpluff",
+    "slug": "jumpluff",
+    "shortDescription": "Once it catches the wind, it deft­ ly controls its cotton-puff spores to float, even around the world.",
+    "description": "Once it catches the wind, it deft­ ly controls its cotton-puff spores to float, even around the world.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/189.png",
+    "creatureIndex": 189,
+    "height": 8,
+    "weight": 30,
+    "abilities": [
+      "chlorophyll",
+      "leaf-guard",
+      "infiltrator"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/jumpluff",
+    "taxonomies": [
+      "element-grass",
+      "element-flying",
+      "habitat-grassland",
+      "shape-upright",
+      "egg-group-fairy",
+      "egg-group-plant"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-190",
+    "assetId": "creature-image-190",
+    "name": "Aipom",
+    "slug": "aipom",
+    "shortDescription": "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air.",
+    "description": "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/190.png",
+    "creatureIndex": 190,
+    "height": 8,
+    "weight": 115,
+    "abilities": [
+      "run-away",
+      "pickup",
+      "skill-link"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/aipom",
+    "taxonomies": [
+      "element-normal",
+      "habitat-forest",
+      "shape-upright",
+      "egg-group-ground"
+    ],
+    "rating": 2
+  },
+  {
+    "entryId": "creature-191",
+    "assetId": "creature-image-191",
+    "name": "Sunkern",
+    "slug": "sunkern",
+    "shortDescription": "It may drop out of the sky suddenly. If attacked by a SPEAROW, it will violently shake its leaves.",
+    "description": "It may drop out of the sky suddenly. If attacked by a SPEAROW, it will violently shake its leaves.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/191.png",
+    "creatureIndex": 191,
+    "height": 3,
+    "weight": 18,
+    "abilities": [
+      "chlorophyll",
+      "solar-power",
+      "early-bird"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/sunkern",
+    "taxonomies": [
+      "element-grass",
+      "habitat-grassland",
+      "shape-ball",
+      "egg-group-plant"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-192",
+    "assetId": "creature-image-192",
+    "name": "Sunflora",
+    "slug": "sunflora",
+    "shortDescription": "It converts sun­ light into energy. In the darkness after sunset, it closes its petals and becomes still.",
+    "description": "It converts sun­ light into energy. In the darkness after sunset, it closes its petals and becomes still.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/192.png",
+    "creatureIndex": 192,
+    "height": 8,
+    "weight": 85,
+    "abilities": [
+      "chlorophyll",
+      "solar-power",
+      "early-bird"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/sunflora",
+    "taxonomies": [
+      "element-grass",
+      "habitat-grassland",
+      "shape-humanoid",
+      "egg-group-plant"
+    ],
+    "rating": 3
+  },
+  {
+    "entryId": "creature-193",
+    "assetId": "creature-image-193",
+    "name": "Yanma",
+    "slug": "yanma",
+    "shortDescription": "If it flaps its wings really fast, it can generate shock waves that will shatter win­ dows in the area.",
+    "description": "If it flaps its wings really fast, it can generate shock waves that will shatter win­ dows in the area.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/193.png",
+    "creatureIndex": 193,
+    "height": 12,
+    "weight": 380,
+    "abilities": [
+      "speed-boost",
+      "compound-eyes",
+      "frisk"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/yanma",
+    "taxonomies": [
+      "element-bug",
+      "element-flying",
+      "habitat-forest",
+      "shape-bug-wings",
+      "egg-group-bug"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-194",
+    "assetId": "creature-image-194",
+    "name": "Wooper",
+    "slug": "wooper",
+    "shortDescription": "This POKéMON lives in cold water. It will leave the water to search for food when it gets cold outside.",
+    "description": "This POKéMON lives in cold water. It will leave the water to search for food when it gets cold outside.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/194.png",
+    "creatureIndex": 194,
+    "height": 4,
+    "weight": 85,
+    "abilities": [
+      "damp",
+      "water-absorb",
+      "unaware"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/wooper",
+    "taxonomies": [
+      "element-water",
+      "element-ground",
+      "habitat-waters-edge",
+      "shape-legs",
+      "egg-group-water1",
+      "egg-group-ground"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-195",
+    "assetId": "creature-image-195",
+    "name": "Quagsire",
+    "slug": "quagsire",
+    "shortDescription": "This carefree POKéMON has an easy-going nature. While swimming, it always bumps into boat hulls.",
+    "description": "This carefree POKéMON has an easy-going nature. While swimming, it always bumps into boat hulls.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/195.png",
+    "creatureIndex": 195,
+    "height": 14,
+    "weight": 750,
+    "abilities": [
+      "damp",
+      "water-absorb",
+      "unaware"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/quagsire",
+    "taxonomies": [
+      "element-water",
+      "element-ground",
+      "habitat-waters-edge",
+      "shape-upright",
+      "egg-group-water1",
+      "egg-group-ground"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-196",
+    "assetId": "creature-image-196",
+    "name": "Espeon",
+    "slug": "espeon",
+    "shortDescription": "It uses the fine hair that covers its body to sense air currents and predict its ene­ my's actions.",
+    "description": "It uses the fine hair that covers its body to sense air currents and predict its ene­ my's actions.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png",
+    "creatureIndex": 196,
+    "height": 9,
+    "weight": 265,
+    "abilities": [
+      "synchronize",
+      "magic-bounce"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/espeon",
+    "taxonomies": [
+      "element-psychic",
+      "habitat-urban",
+      "shape-quadruped",
+      "egg-group-ground"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-197",
+    "assetId": "creature-image-197",
+    "name": "Umbreon",
+    "slug": "umbreon",
+    "shortDescription": "When agitated, this POKéMON pro­ tects itself by spraying poisonous sweat from its pores.",
+    "description": "When agitated, this POKéMON pro­ tects itself by spraying poisonous sweat from its pores.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png",
+    "creatureIndex": 197,
+    "height": 10,
+    "weight": 270,
+    "abilities": [
+      "synchronize",
+      "inner-focus"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/umbreon",
+    "taxonomies": [
+      "element-dark",
+      "habitat-urban",
+      "shape-quadruped",
+      "egg-group-ground"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-198",
+    "assetId": "creature-image-198",
+    "name": "Murkrow",
+    "slug": "murkrow",
+    "shortDescription": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+    "description": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/198.png",
+    "creatureIndex": 198,
+    "height": 5,
+    "weight": 21,
+    "abilities": [
+      "insomnia",
+      "super-luck",
+      "prankster"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/murkrow",
+    "taxonomies": [
+      "element-dark",
+      "element-flying",
+      "habitat-forest",
+      "shape-wings",
+      "egg-group-flying"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-199",
+    "assetId": "creature-image-199",
+    "name": "Slowking",
+    "slug": "slowking",
+    "shortDescription": "It has incredible intellect and in­ tuition. Whatever the situation, it remains calm and collected.",
+    "description": "It has incredible intellect and in­ tuition. Whatever the situation, it remains calm and collected.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/199.png",
+    "creatureIndex": 199,
+    "height": 20,
+    "weight": 795,
+    "abilities": [
+      "oblivious",
+      "own-tempo",
+      "regenerator"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/slowking",
+    "taxonomies": [
+      "element-water",
+      "element-psychic",
+      "habitat-waters-edge",
+      "shape-upright",
+      "egg-group-monster",
+      "egg-group-water1"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-200",
+    "assetId": "creature-image-200",
+    "name": "Misdreavus",
+    "slug": "misdreavus",
+    "shortDescription": "It likes playing mischievous tricks such as screaming and wailing to startle people at night.",
+    "description": "It likes playing mischievous tricks such as screaming and wailing to startle people at night.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/200.png",
+    "creatureIndex": 200,
+    "height": 7,
+    "weight": 10,
+    "abilities": [
+      "levitate"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/misdreavus",
+    "taxonomies": [
+      "element-ghost",
+      "habitat-cave",
+      "shape-ball",
+      "egg-group-indeterminate"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-201",
+    "assetId": "creature-image-201",
+    "name": "Unown",
+    "slug": "unown",
+    "shortDescription": "Their shapes look like hieroglyphs on ancient tab­ lets. It is said that the two are somehow related.",
+    "description": "Their shapes look like hieroglyphs on ancient tab­ lets. It is said that the two are somehow related.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
+    "creatureIndex": 201,
+    "height": 5,
+    "weight": 50,
+    "abilities": [
+      "levitate"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/unown",
+    "taxonomies": [
+      "element-psychic",
+      "habitat-rare",
+      "shape-ball",
+      "egg-group-no-eggs"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-202",
+    "assetId": "creature-image-202",
+    "name": "Wobbuffet",
+    "slug": "wobbuffet",
+    "shortDescription": "It hates light and shock. If attack­ ed, it inflates its body to pump up its counter­ strike.",
+    "description": "It hates light and shock. If attack­ ed, it inflates its body to pump up its counter­ strike.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/202.png",
+    "creatureIndex": 202,
+    "height": 13,
+    "weight": 285,
+    "abilities": [
+      "shadow-tag",
+      "telepathy"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/wobbuffet",
+    "taxonomies": [
+      "element-psychic",
+      "habitat-cave",
+      "shape-blob",
+      "egg-group-indeterminate"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-203",
+    "assetId": "creature-image-203",
+    "name": "Girafarig",
+    "slug": "girafarig",
+    "shortDescription": "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent and bite.",
+    "description": "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent and bite.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/203.png",
+    "creatureIndex": 203,
+    "height": 15,
+    "weight": 415,
+    "abilities": [
+      "inner-focus",
+      "early-bird",
+      "sap-sipper"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/girafarig",
+    "taxonomies": [
+      "element-normal",
+      "element-psychic",
+      "habitat-grassland",
+      "shape-quadruped",
+      "egg-group-ground"
+    ],
+    "rating": 2
+  },
+  {
+    "entryId": "creature-204",
+    "assetId": "creature-image-204",
+    "name": "Pineco",
+    "slug": "pineco",
+    "shortDescription": "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
+    "description": "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/204.png",
+    "creatureIndex": 204,
+    "height": 6,
+    "weight": 72,
+    "abilities": [
+      "sturdy",
+      "overcoat"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/pineco",
+    "taxonomies": [
+      "element-bug",
+      "habitat-forest",
+      "shape-ball",
+      "egg-group-bug"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-205",
+    "assetId": "creature-image-205",
+    "name": "Forretress",
+    "slug": "forretress",
+    "shortDescription": "Its entire body is shielded by a steel-hard shell. What lurks inside the armor is a total mystery.",
+    "description": "Its entire body is shielded by a steel-hard shell. What lurks inside the armor is a total mystery.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/205.png",
+    "creatureIndex": 205,
+    "height": 12,
+    "weight": 1258,
+    "abilities": [
+      "sturdy",
+      "overcoat"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/forretress",
+    "taxonomies": [
+      "element-bug",
+      "element-steel",
+      "habitat-forest",
+      "shape-ball",
+      "egg-group-bug"
+    ],
+    "rating": 3
+  },
+  {
+    "entryId": "creature-206",
+    "assetId": "creature-image-206",
+    "name": "Dunsparce",
+    "slug": "dunsparce",
+    "shortDescription": "When spotted, this POKéMON escapes backward by furi­ ously boring into the ground with its tail.",
+    "description": "When spotted, this POKéMON escapes backward by furi­ ously boring into the ground with its tail.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/206.png",
+    "creatureIndex": 206,
+    "height": 15,
+    "weight": 140,
+    "abilities": [
+      "serene-grace",
+      "run-away",
+      "rattled"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/dunsparce",
+    "taxonomies": [
+      "element-normal",
+      "habitat-cave",
+      "shape-squiggle",
+      "egg-group-ground"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-207",
+    "assetId": "creature-image-207",
+    "name": "Gligar",
+    "slug": "gligar",
+    "shortDescription": "It flies straight at its target's face then clamps down on the star­ tled victim to inject poison.",
+    "description": "It flies straight at its target's face then clamps down on the star­ tled victim to inject poison.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/207.png",
+    "creatureIndex": 207,
+    "height": 11,
+    "weight": 648,
+    "abilities": [
+      "hyper-cutter",
+      "sand-veil",
+      "immunity"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/gligar",
+    "taxonomies": [
+      "element-ground",
+      "element-flying",
+      "habitat-mountain",
+      "shape-wings",
+      "egg-group-bug"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-208",
+    "assetId": "creature-image-208",
+    "name": "Steelix",
+    "slug": "steelix",
+    "shortDescription": "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
+    "description": "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/208.png",
+    "creatureIndex": 208,
+    "height": 92,
+    "weight": 4000,
+    "abilities": [
+      "rock-head",
+      "sturdy",
+      "sheer-force"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/steelix",
+    "taxonomies": [
+      "element-steel",
+      "element-ground",
+      "habitat-cave",
+      "shape-squiggle",
+      "egg-group-mineral"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-209",
+    "assetId": "creature-image-209",
+    "name": "Snubbull",
+    "slug": "snubbull",
+    "shortDescription": "Although it looks frightening, it is actually kind and affectionate. It is very popular among women.",
+    "description": "Although it looks frightening, it is actually kind and affectionate. It is very popular among women.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/209.png",
+    "creatureIndex": 209,
+    "height": 6,
+    "weight": 78,
+    "abilities": [
+      "intimidate",
+      "run-away",
+      "rattled"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/snubbull",
+    "taxonomies": [
+      "element-fairy",
+      "habitat-urban",
+      "shape-humanoid",
+      "egg-group-ground",
+      "egg-group-fairy"
+    ],
+    "rating": 3
+  },
+  {
+    "entryId": "creature-210",
+    "assetId": "creature-image-210",
+    "name": "Granbull",
+    "slug": "granbull",
+    "shortDescription": "It is actually timid and easily spooked. If at­ tacked, it flails about to fend off its attacker.",
+    "description": "It is actually timid and easily spooked. If at­ tacked, it flails about to fend off its attacker.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/210.png",
+    "creatureIndex": 210,
+    "height": 14,
+    "weight": 487,
+    "abilities": [
+      "intimidate",
+      "quick-feet",
+      "rattled"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/granbull",
+    "taxonomies": [
+      "element-fairy",
+      "habitat-urban",
+      "shape-upright",
+      "egg-group-ground",
+      "egg-group-fairy"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-211",
+    "assetId": "creature-image-211",
+    "name": "Qwilfish",
+    "slug": "qwilfish",
+    "shortDescription": "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
+    "description": "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/211.png",
+    "creatureIndex": 211,
+    "height": 5,
+    "weight": 39,
+    "abilities": [
+      "poison-point",
+      "swift-swim",
+      "intimidate"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/qwilfish",
+    "taxonomies": [
+      "element-water",
+      "element-poison",
+      "habitat-sea",
+      "shape-fish",
+      "egg-group-water2"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-212",
+    "assetId": "creature-image-212",
+    "name": "Scizor",
+    "slug": "scizor",
+    "shortDescription": "It has a steel-hard body. It intimidates foes by upraising its eye-patterned pincers.",
+    "description": "It has a steel-hard body. It intimidates foes by upraising its eye-patterned pincers.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png",
+    "creatureIndex": 212,
+    "height": 18,
+    "weight": 1180,
+    "abilities": [
+      "swarm",
+      "technician",
+      "light-metal"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/scizor",
+    "taxonomies": [
+      "element-bug",
+      "element-steel",
+      "habitat-grassland",
+      "shape-bug-wings",
+      "egg-group-bug"
+    ],
+    "rating": 3
+  },
+  {
+    "entryId": "creature-213",
+    "assetId": "creature-image-213",
+    "name": "Shuckle",
+    "slug": "shuckle",
+    "shortDescription": "The BERRIES it stores in its vase-like shell decompose and become a gooey liquid.",
+    "description": "The BERRIES it stores in its vase-like shell decompose and become a gooey liquid.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/213.png",
+    "creatureIndex": 213,
+    "height": 6,
+    "weight": 205,
+    "abilities": [
+      "sturdy",
+      "gluttony",
+      "contrary"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/shuckle",
+    "taxonomies": [
+      "element-bug",
+      "element-rock",
+      "habitat-mountain",
+      "shape-armor",
+      "egg-group-bug"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-214",
+    "assetId": "creature-image-214",
+    "name": "Heracross",
+    "slug": "heracross",
+    "shortDescription": "It is usually docile, but if it is disturbed while sipping honey, it chases off the intruder with its horn.",
+    "description": "It is usually docile, but if it is disturbed while sipping honey, it chases off the intruder with its horn.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/214.png",
+    "creatureIndex": 214,
+    "height": 15,
+    "weight": 540,
+    "abilities": [
+      "swarm",
+      "guts",
+      "moxie"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/heracross",
+    "taxonomies": [
+      "element-bug",
+      "element-fighting",
+      "habitat-forest",
+      "shape-humanoid",
+      "egg-group-bug"
+    ],
+    "rating": 2
+  },
+  {
+    "entryId": "creature-215",
+    "assetId": "creature-image-215",
+    "name": "Sneasel",
+    "slug": "sneasel",
+    "shortDescription": "Its paws conceal sharp claws. If attacked, it sud­ denly extends the claws and startles its enemy.",
+    "description": "Its paws conceal sharp claws. If attacked, it sud­ denly extends the claws and startles its enemy.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/215.png",
+    "creatureIndex": 215,
+    "height": 9,
+    "weight": 280,
+    "abilities": [
+      "inner-focus",
+      "keen-eye",
+      "pickpocket"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/sneasel",
+    "taxonomies": [
+      "element-dark",
+      "element-ice",
+      "habitat-forest",
+      "shape-upright",
+      "egg-group-ground"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-216",
+    "assetId": "creature-image-216",
+    "name": "Teddiursa",
+    "slug": "teddiursa",
+    "shortDescription": "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.",
+    "description": "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/216.png",
+    "creatureIndex": 216,
+    "height": 6,
+    "weight": 88,
+    "abilities": [
+      "pickup",
+      "quick-feet",
+      "honey-gather"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/teddiursa",
+    "taxonomies": [
+      "element-normal",
+      "habitat-mountain",
+      "shape-upright",
+      "egg-group-ground"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-217",
+    "assetId": "creature-image-217",
+    "name": "Ursaring",
+    "slug": "ursaring",
+    "shortDescription": "Although it is a good climber, it prefers to snap trees with its forelegs and eat fallen BERRIES.",
+    "description": "Although it is a good climber, it prefers to snap trees with its forelegs and eat fallen BERRIES.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/217.png",
+    "creatureIndex": 217,
+    "height": 18,
+    "weight": 1258,
+    "abilities": [
+      "guts",
+      "quick-feet",
+      "unnerve"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/ursaring",
+    "taxonomies": [
+      "element-normal",
+      "habitat-mountain",
+      "shape-upright",
+      "egg-group-ground"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-218",
+    "assetId": "creature-image-218",
+    "name": "Slugma",
+    "slug": "slugma",
+    "shortDescription": "It never sleeps. It has to keep moving because if it stopped, its magma body would cool and harden.",
+    "description": "It never sleeps. It has to keep moving because if it stopped, its magma body would cool and harden.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/218.png",
+    "creatureIndex": 218,
+    "height": 7,
+    "weight": 350,
+    "abilities": [
+      "magma-armor",
+      "flame-body",
+      "weak-armor"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/slugma",
+    "taxonomies": [
+      "element-fire",
+      "habitat-mountain",
+      "shape-squiggle",
+      "egg-group-indeterminate"
+    ],
+    "rating": 2
+  },
+  {
+    "entryId": "creature-219",
+    "assetId": "creature-image-219",
+    "name": "Magcargo",
+    "slug": "magcargo",
+    "shortDescription": "The shell on its back is just skin that has cooled and hardened. It breaks easily with a slight touch.",
+    "description": "The shell on its back is just skin that has cooled and hardened. It breaks easily with a slight touch.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/219.png",
+    "creatureIndex": 219,
+    "height": 8,
+    "weight": 550,
+    "abilities": [
+      "magma-armor",
+      "flame-body",
+      "weak-armor"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/magcargo",
+    "taxonomies": [
+      "element-fire",
+      "element-rock",
+      "habitat-mountain",
+      "shape-squiggle",
+      "egg-group-indeterminate"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-220",
+    "assetId": "creature-image-220",
+    "name": "Swinub",
+    "slug": "swinub",
+    "shortDescription": "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs.",
+    "description": "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/220.png",
+    "creatureIndex": 220,
+    "height": 4,
+    "weight": 65,
+    "abilities": [
+      "oblivious",
+      "snow-cloak",
+      "thick-fat"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/swinub",
+    "taxonomies": [
+      "element-ice",
+      "element-ground",
+      "habitat-cave",
+      "shape-quadruped",
+      "egg-group-ground"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-221",
+    "assetId": "creature-image-221",
+    "name": "Piloswine",
+    "slug": "piloswine",
+    "shortDescription": "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly.",
+    "description": "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/221.png",
+    "creatureIndex": 221,
+    "height": 11,
+    "weight": 558,
+    "abilities": [
+      "oblivious",
+      "snow-cloak",
+      "thick-fat"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/piloswine",
+    "taxonomies": [
+      "element-ice",
+      "element-ground",
+      "habitat-cave",
+      "shape-quadruped",
+      "egg-group-ground"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-222",
+    "assetId": "creature-image-222",
+    "name": "Corsola",
+    "slug": "corsola",
+    "shortDescription": "It continuously sheds and grows. The tip of its head is prized as a treasure for its beauty.",
+    "description": "It continuously sheds and grows. The tip of its head is prized as a treasure for its beauty.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/222.png",
+    "creatureIndex": 222,
+    "height": 6,
+    "weight": 50,
+    "abilities": [
+      "hustle",
+      "natural-cure",
+      "regenerator"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/corsola",
+    "taxonomies": [
+      "element-water",
+      "element-rock",
+      "habitat-sea",
+      "shape-armor",
+      "egg-group-water1",
+      "egg-group-water3"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-223",
+    "assetId": "creature-image-223",
+    "name": "Remoraid",
+    "slug": "remoraid",
+    "shortDescription": "It has superb ac­ curacy. The water it shoots out can strike even moving prey from more than 300 feet.",
+    "description": "It has superb ac­ curacy. The water it shoots out can strike even moving prey from more than 300 feet.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/223.png",
+    "creatureIndex": 223,
+    "height": 6,
+    "weight": 120,
+    "abilities": [
+      "hustle",
+      "sniper",
+      "moody"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/remoraid",
+    "taxonomies": [
+      "element-water",
+      "habitat-sea",
+      "shape-fish",
+      "egg-group-water1",
+      "egg-group-water2"
+    ],
+    "rating": 3
+  },
+  {
+    "entryId": "creature-224",
+    "assetId": "creature-image-224",
+    "name": "Octillery",
+    "slug": "octillery",
+    "shortDescription": "It traps enemies with its suction- cupped tentacles then smashes them with its rock-hard head.",
+    "description": "It traps enemies with its suction- cupped tentacles then smashes them with its rock-hard head.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/224.png",
+    "creatureIndex": 224,
+    "height": 9,
+    "weight": 285,
+    "abilities": [
+      "suction-cups",
+      "sniper",
+      "moody"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/octillery",
+    "taxonomies": [
+      "element-water",
+      "habitat-sea",
+      "shape-tentacles",
+      "egg-group-water1",
+      "egg-group-water2"
+    ],
+    "rating": 3
+  },
+  {
+    "entryId": "creature-225",
+    "assetId": "creature-image-225",
+    "name": "Delibird",
+    "slug": "delibird",
+    "shortDescription": "It carries food all day long. There are tales about lost people who were saved by the food it had.",
+    "description": "It carries food all day long. There are tales about lost people who were saved by the food it had.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/225.png",
+    "creatureIndex": 225,
+    "height": 9,
+    "weight": 160,
+    "abilities": [
+      "vital-spirit",
+      "hustle",
+      "insomnia"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/delibird",
+    "taxonomies": [
+      "element-ice",
+      "element-flying",
+      "habitat-mountain",
+      "shape-wings",
+      "egg-group-water1",
+      "egg-group-ground"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-226",
+    "assetId": "creature-image-226",
+    "name": "Mantine",
+    "slug": "mantine",
+    "shortDescription": "As it majestically swims, it doesn't care if REMORAID attach to it for scavenging its leftovers.",
+    "description": "As it majestically swims, it doesn't care if REMORAID attach to it for scavenging its leftovers.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/226.png",
+    "creatureIndex": 226,
+    "height": 21,
+    "weight": 2200,
+    "abilities": [
+      "swift-swim",
+      "water-absorb",
+      "water-veil"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/mantine",
+    "taxonomies": [
+      "element-water",
+      "element-flying",
+      "habitat-sea",
+      "shape-wings",
+      "egg-group-water1"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-227",
+    "assetId": "creature-image-227",
+    "name": "Skarmory",
+    "slug": "skarmory",
+    "shortDescription": "Its sturdy wings look heavy, but they are actually hollow and light, allowing it to fly freely in the sky.",
+    "description": "Its sturdy wings look heavy, but they are actually hollow and light, allowing it to fly freely in the sky.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/227.png",
+    "creatureIndex": 227,
+    "height": 17,
+    "weight": 505,
+    "abilities": [
+      "keen-eye",
+      "sturdy",
+      "weak-armor"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/skarmory",
+    "taxonomies": [
+      "element-steel",
+      "element-flying",
+      "habitat-rough-terrain",
+      "shape-wings",
+      "egg-group-flying"
+    ],
+    "rating": 2
+  },
+  {
+    "entryId": "creature-228",
+    "assetId": "creature-image-228",
+    "name": "Houndour",
+    "slug": "houndour",
+    "shortDescription": "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey.",
+    "description": "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/228.png",
+    "creatureIndex": 228,
+    "height": 6,
+    "weight": 108,
+    "abilities": [
+      "early-bird",
+      "flash-fire",
+      "unnerve"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/houndour",
+    "taxonomies": [
+      "element-dark",
+      "element-fire",
+      "habitat-rough-terrain",
+      "shape-quadruped",
+      "egg-group-ground"
+    ],
+    "rating": 4
+  },
+  {
+    "entryId": "creature-229",
+    "assetId": "creature-image-229",
+    "name": "Houndoom",
+    "slug": "houndoom",
+    "shortDescription": "If you are burned by the flames it shoots from its mouth, the pain will never go away.",
+    "description": "If you are burned by the flames it shoots from its mouth, the pain will never go away.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/229.png",
+    "creatureIndex": 229,
+    "height": 14,
+    "weight": 350,
+    "abilities": [
+      "early-bird",
+      "flash-fire",
+      "unnerve"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/houndoom",
+    "taxonomies": [
+      "element-dark",
+      "element-fire",
+      "habitat-rough-terrain",
+      "shape-quadruped",
+      "egg-group-ground"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-230",
+    "assetId": "creature-image-230",
+    "name": "Kingdra",
+    "slug": "kingdra",
+    "shortDescription": "It is said that it usually hides in underwater caves. It can create whirlpools by yawning.",
+    "description": "It is said that it usually hides in underwater caves. It can create whirlpools by yawning.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/230.png",
+    "creatureIndex": 230,
+    "height": 18,
+    "weight": 1520,
+    "abilities": [
+      "swift-swim",
+      "sniper",
+      "damp"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/kingdra",
+    "taxonomies": [
+      "element-water",
+      "element-dragon",
+      "habitat-sea",
+      "shape-blob",
+      "egg-group-water1",
+      "egg-group-dragon"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-231",
+    "assetId": "creature-image-231",
+    "name": "Phanpy",
+    "slug": "phanpy",
+    "shortDescription": "It swings its long snout around play­ fully, but because it is so strong, that can be dan­ gerous.",
+    "description": "It swings its long snout around play­ fully, but because it is so strong, that can be dan­ gerous.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/231.png",
+    "creatureIndex": 231,
+    "height": 5,
+    "weight": 335,
+    "abilities": [
+      "pickup",
+      "sand-veil"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/phanpy",
+    "taxonomies": [
+      "element-ground",
+      "habitat-rough-terrain",
+      "shape-quadruped",
+      "egg-group-ground"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-232",
+    "assetId": "creature-image-232",
+    "name": "Donphan",
+    "slug": "donphan",
+    "shortDescription": "It has sharp, hard tusks and a rugged hide. Its TACKLE is strong enough to knock down a house.",
+    "description": "It has sharp, hard tusks and a rugged hide. Its TACKLE is strong enough to knock down a house.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/232.png",
+    "creatureIndex": 232,
+    "height": 11,
+    "weight": 1200,
+    "abilities": [
+      "sturdy",
+      "sand-veil"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/donphan",
+    "taxonomies": [
+      "element-ground",
+      "habitat-rough-terrain",
+      "shape-quadruped",
+      "egg-group-ground"
+    ],
+    "rating": 5
+  },
+  {
+    "entryId": "creature-233",
+    "assetId": "creature-image-233",
+    "name": "Porygon2",
+    "slug": "porygon2",
+    "shortDescription": "This upgraded version of PORYGON is designed for space exploration. It can't fly, though.",
+    "description": "This upgraded version of PORYGON is designed for space exploration. It can't fly, though.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/233.png",
+    "creatureIndex": 233,
+    "height": 6,
+    "weight": 325,
+    "abilities": [
+      "trace",
+      "download",
+      "analytic"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/porygon2",
+    "taxonomies": [
+      "element-normal",
+      "habitat-urban",
+      "shape-legs",
+      "egg-group-mineral"
+    ],
+    "rating": 1
+  },
+  {
+    "entryId": "creature-234",
+    "assetId": "creature-image-234",
+    "name": "Stantler",
+    "slug": "stantler",
+    "shortDescription": "The curved antlers subtly change the flow of air to create a strange space where real­ ity is distorted.",
+    "description": "The curved antlers subtly change the flow of air to create a strange space where real­ ity is distorted.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/234.png",
+    "creatureIndex": 234,
+    "height": 14,
+    "weight": 712,
+    "abilities": [
+      "intimidate",
+      "frisk",
+      "sap-sipper"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/stantler",
+    "taxonomies": [
+      "element-normal",
+      "habitat-forest",
+      "shape-quadruped",
+      "egg-group-ground"
+    ],
+    "rating": 3
+  },
+  {
+    "entryId": "creature-235",
+    "assetId": "creature-image-235",
+    "name": "Smeargle",
+    "slug": "smeargle",
+    "shortDescription": "A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory.",
+    "description": "A special fluid oozes from the tip of its tail. It paints the fluid everywhere to mark its territory.",
+    "coverImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/235.png",
+    "creatureIndex": 235,
+    "height": 12,
+    "weight": 580,
+    "abilities": [
+      "own-tempo",
+      "technician",
+      "moody"
+    ],
+    "externalResourceLink": "https://pokeapi.co/api/v2/pokemon/smeargle",
+    "taxonomies": [
+      "element-normal",
+      "habitat-urban",
+      "shape-upright",
+      "egg-group-ground"
+    ],
+    "rating": 1
+  }
+]

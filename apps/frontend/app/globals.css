@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-pixel: var(--font-pixel);
+}
+
+
+@layer components {
+  .btn-ghost {
+    @apply inline-flex items-center justify-center
+           px-4 py-2
+           rounded-md
+           text-gray-800
+           transition-colors
+           focus:outline-none
+           focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-gray-400
+           disabled:opacity-50 disabled:pointer-events-none;
+  }
+
+  .btn-ghost:hover {
+    @apply bg-black/5;
+  }
+
+  .btn-ghost:active {
+    @apply bg-black/10;
+  }
+}

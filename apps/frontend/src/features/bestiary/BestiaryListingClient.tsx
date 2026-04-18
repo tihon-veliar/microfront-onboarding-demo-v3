@@ -15,6 +15,22 @@ type BestiaryListingClientProps = {
 
 type PaginationMode = "infinite" | "prev-next";
 
+function getVisiblePages(currentPage: number, totalPages: number): Array<number | "ellipsis"> {
+  if (totalPages <= 7) {
+    return Array.from({ length: totalPages }, (_, index) => index + 1);
+  }
+
+  if (currentPage <= 3) {
+    return [1, 2, 3, 4, "ellipsis", totalPages];
+  }
+
+  if (currentPage >= totalPages - 2) {
+    return [1, "ellipsis", totalPages - 3, totalPages - 2, totalPages - 1, totalPages];
+  }
+
+  return [1, "ellipsis", currentPage - 1, currentPage, currentPage + 1, "ellipsis", totalPages];
+}
+
 const BestiaryListingClient = ({
   initialItems,
   initialPagination,
@@ -26,23 +42,26 @@ const BestiaryListingClient = ({
   const [total, setTotal] = useState(initialPagination.total);
   const [currentPage, setCurrentPage] = useState(initialPagination.page);
   const loadMoreRef = useRef<HTMLDivElement | null>(null);
+  const pageSize = initialPagination.limit;
+  const totalPages = Math.max(1, Math.ceil(total / pageSize));
+  const visiblePages = getVisiblePages(currentPage, totalPages);
 
   useEffect(() => {
     setItems(initialItems);
     setTotal(initialPagination.total);
     setLoading(false);
     setCurrentPage(initialPagination.page);
-  }, [initialItems, initialPagination.total, selectedTerms]);
+  }, [initialItems, initialPagination.page, initialPagination.total, selectedTerms]);
 
   const hasNext =
     mode === "infinite"
       ? items.length < total
-      : currentPage * initialPagination.limit < total;
+      : currentPage < totalPages;
   const hasPrev = currentPage > 1;
 
   async function fetchItems(offset: number, nextMode: PaginationMode) {
     const params = new URLSearchParams({
-      limit: String(initialPagination.limit),
+      limit: String(pageSize),
       offset: String(offset),
     });
 
@@ -82,14 +101,14 @@ const BestiaryListingClient = ({
   }
 
   async function handlePageChange(nextPage: number) {
-    if (loading || nextPage < 1) {
+    if (loading || nextPage < 1 || nextPage > totalPages) {
       return;
     }
 
     setLoading(true);
 
     try {
-      await fetchItems((nextPage - 1) * initialPagination.limit, "prev-next");
+      await fetchItems((nextPage - 1) * pageSize, "prev-next");
       setCurrentPage(nextPage);
     } finally {
       setLoading(false);
@@ -157,7 +176,21 @@ const BestiaryListingClient = ({
             loading={loading}
             onClick={() => handlePageChange(currentPage - 1)}
           />
-          <span>Page {currentPage}</span>
+          {visiblePages.map((pageNumber, index) =>
+            pageNumber === "ellipsis" ? (
+              <span key={`ellipsis-${index}`}>...</span>
+            ) : (
+              <button
+                aria-current={pageNumber === currentPage ? "page" : undefined}
+                disabled={loading && pageNumber === currentPage}
+                key={pageNumber}
+                onClick={() => handlePageChange(pageNumber)}
+                type="button"
+              >
+                {pageNumber}
+              </button>
+            ),
+          )}
           <BestiaryLoadMore
             disabled={loading || !hasNext}
             label="Next"

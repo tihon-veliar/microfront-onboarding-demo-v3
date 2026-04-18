@@ -32,13 +32,27 @@ export async function getBestiaryPageData(
     return null;
   }
 
-  const selectedTerms = params.selectedTerms ?? [];
+  const selectedTerms = (params.selectedTerms ?? []).filter((selectedTerm) =>
+    taxonomyTerms.some((term) => term.id === selectedTerm),
+  );
 
-  const creatures = await getCreatures({
-    page: params.page,
+  const requestedPage = params.page && params.page > 0 ? params.page : 1;
+
+  let creatures = await getCreatures({
+    page: requestedPage,
     limit: params.limit,
     taxonomyIds: selectedTerms,
   });
+
+  const totalPages = Math.max(1, Math.ceil(creatures.total / creatures.limit));
+
+  if (requestedPage > totalPages) {
+    creatures = await getCreatures({
+      page: totalPages,
+      limit: params.limit,
+      taxonomyIds: selectedTerms,
+    });
+  }
 
   return {
     archivePage,

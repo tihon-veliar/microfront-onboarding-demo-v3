@@ -5,6 +5,7 @@ import { getBestiaryPageData } from "@/services/cms/pages/getBestiaryPageData";
 
 type BestiaryRouteProps = {
   searchParams?: Promise<{
+    page?: string;
     selectedTerms?: string;
   }>;
 };
@@ -20,9 +21,24 @@ function parseSelectedTerms(value?: string): string[] {
     .filter(Boolean);
 }
 
+function parsePage(value?: string): number {
+  if (!value) {
+    return 1;
+  }
+
+  const parsed = Number(value);
+
+  if (!Number.isFinite(parsed) || parsed < 1) {
+    return 1;
+  }
+
+  return Math.floor(parsed);
+}
+
 export default async function Bestiary({ searchParams }: BestiaryRouteProps) {
   const resolvedSearchParams = searchParams ? await searchParams : undefined;
   const data = await getBestiaryPageData({
+    page: parsePage(resolvedSearchParams?.page),
     selectedTerms: parseSelectedTerms(resolvedSearchParams?.selectedTerms),
   });
 

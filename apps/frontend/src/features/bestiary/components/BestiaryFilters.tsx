@@ -40,15 +40,20 @@ const BestiaryFilters = ({ taxonomyTerms, selectedTerms }: BestiaryFiltersProps)
 
   return (
     <div>
-      <p>Filters</p>
+      <p id="bestiary-filters-heading">Filters</p>
       <ul className="flex flex-wrap gap-10 w-full">
         {taxonomyTerms.map((term) => {
-          const isSelected = selectedTerms.includes(term.slug);
+          const isSelected = selectedTerms.includes(term.id);
           const count = (term as TaxonomyTermWithOptionalCount).count;
 
           return (
             <li key={term.id}>
-              <button onClick={() => handleToggle(term.id)} type="button">
+              <button
+                aria-label={`${isSelected ? "Remove filter" : "Add filter"} ${term.title}`}
+                aria-pressed={isSelected}
+                onClick={() => handleToggle(term.id)}
+                type="button"
+              >
                 {isSelected ? "[x]" : "[ ]"} {term.title}
                 {typeof count === "number" ? ` (${count})` : ""}
               </button>

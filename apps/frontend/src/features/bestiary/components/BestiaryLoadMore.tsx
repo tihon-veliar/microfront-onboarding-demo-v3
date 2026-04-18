@@ -3,6 +3,7 @@ type BestiaryLoadMoreProps = {
   loading: boolean;
   disabled: boolean;
   label?: string;
+  ariaLabel?: string;
 };
 
 const BestiaryLoadMore = ({
@@ -10,9 +11,10 @@ const BestiaryLoadMore = ({
   loading,
   disabled,
   label = "Load more",
+  ariaLabel,
 }: BestiaryLoadMoreProps) => {
   return (
-    <button disabled={disabled} onClick={onClick} type="button">
+    <button aria-label={ariaLabel || label} disabled={disabled} onClick={onClick} type="button">
       {loading ? "Loading..." : label}
     </button>
   );

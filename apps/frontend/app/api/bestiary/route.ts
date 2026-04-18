@@ -37,11 +37,14 @@ export async function GET(request: Request) {
   const limit = parseNumberParam(searchParams.get("limit"), DEFAULT_LIMIT);
   const offset = parseNumberParam(searchParams.get("offset"), DEFAULT_OFFSET);
   const selectedTerms = parseSelectedTermsParam(searchParams.get("selectedTerms"));
+  const taxonomyTerms = selectedTerms.length > 0 ? await getTaxonomyTerms() : [];
 
   let taxonomyIds: string[] | undefined;
 
   if (selectedTerms.length > 0) {
-    taxonomyIds = selectedTerms;
+    taxonomyIds = selectedTerms.filter((selectedTerm) =>
+      taxonomyTerms.some((term) => term.id === selectedTerm),
+    );
   }
 
   const response = await getCreatures({

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@chakra-ui/react": "^2.10.9",
+    "@contentful/rich-text-react-renderer": "^16.2.1",
     "@emotion/react": "^11.14.0",
     "contentful": "^11.12.1",
     "nes.css": "^2.3.0",

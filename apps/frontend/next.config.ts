@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
       enabled: false,
     },
   },
+  images: {
+    domains: ["images.ctfassets.net"],
+  },
 };
 
 export default nextConfig;

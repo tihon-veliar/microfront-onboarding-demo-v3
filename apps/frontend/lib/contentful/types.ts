@@ -1,3 +1,5 @@
+import type { Document } from "@contentful/rich-text-types";
+
 export type ContentfulImage = {
   url: string;
   width: number;
@@ -15,7 +17,7 @@ export type HomeHero = {
 
 export type HomeImageTextSection = {
   title: string;
-  content: unknown;
+  content: Document;
   imageAlignment: "left" | "right";
   image: ContentfulImage | null;
 };

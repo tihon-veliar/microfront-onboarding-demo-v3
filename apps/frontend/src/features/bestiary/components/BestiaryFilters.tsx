@@ -18,10 +18,10 @@ const BestiaryFilters = ({ taxonomyTerms, selectedTerms }: BestiaryFiltersProps)
   const router = useRouter();
   const searchParams = useSearchParams();
 
-  function handleToggle(termSlug: string) {
-    const nextSelectedTerms = selectedTerms.includes(termSlug)
-      ? selectedTerms.filter((selectedTerm) => selectedTerm !== termSlug)
-      : [...selectedTerms, termSlug];
+  function handleToggle(termId: string) {
+    const nextSelectedTerms = selectedTerms.includes(termId)
+      ? selectedTerms.filter((selectedTerm) => selectedTerm !== termId)
+      : [...selectedTerms, termId];
 
     const params = new URLSearchParams(searchParams.toString());
 
@@ -41,14 +41,14 @@ const BestiaryFilters = ({ taxonomyTerms, selectedTerms }: BestiaryFiltersProps)
   return (
     <div>
       <p>Filters</p>
-      <ul className="flex flex-wrap gap-[10px] w-full">
+      <ul className="flex flex-wrap gap-10 w-full">
         {taxonomyTerms.map((term) => {
           const isSelected = selectedTerms.includes(term.slug);
           const count = (term as TaxonomyTermWithOptionalCount).count;
 
           return (
             <li key={term.id}>
-              <button onClick={() => handleToggle(term.slug)} type="button">
+              <button onClick={() => handleToggle(term.id)} type="button">
                 {isSelected ? "[x]" : "[ ]"} {term.title}
                 {typeof count === "number" ? ` (${count})` : ""}
               </button>

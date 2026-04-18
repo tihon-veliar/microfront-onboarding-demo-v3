@@ -41,11 +41,7 @@ export async function GET(request: Request) {
   let taxonomyIds: string[] | undefined;
 
   if (selectedTerms.length > 0) {
-    const taxonomyTerms = await getTaxonomyTerms();
-
-    taxonomyIds = taxonomyTerms
-      .filter((term) => selectedTerms.includes(term.slug))
-      .map((term) => term.id);
+    taxonomyIds = selectedTerms;
   }
 
   const response = await getCreatures({

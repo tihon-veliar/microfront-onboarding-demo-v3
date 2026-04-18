@@ -10,12 +10,18 @@ export async function getCreatures(params: GetCreaturesParams = {}): Promise<Pag
   const limit = params.limit && params.limit > 0 ? params.limit : DEFAULT_LIMIT;
   const skip = (page - 1) * limit;
 
+  const { taxonomyIds } = params;
+
   const response = await contentfulClient.getEntries({
     content_type: "creature",
     skip,
     limit,
     include: 2,
     order: ["fields.creatureIndex"],
+    ...(taxonomyIds?.length &&
+      taxonomyIds?.length > 0 && {
+        "fields.taxonomies.sys.id[in]": taxonomyIds.join(","),
+      }),
   });
 
   return {

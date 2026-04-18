@@ -33,15 +33,11 @@ export async function getBestiaryPageData(
   }
 
   const selectedTerms = params.selectedTerms ?? [];
-  const taxonomyIds =
-    selectedTerms.length > 0
-      ? taxonomyTerms.filter((term) => selectedTerms.includes(term.slug)).map((term) => term.id)
-      : undefined;
 
   const creatures = await getCreatures({
     page: params.page,
     limit: params.limit,
-    taxonomyIds,
+    taxonomyIds: selectedTerms,
   });
 
   return {

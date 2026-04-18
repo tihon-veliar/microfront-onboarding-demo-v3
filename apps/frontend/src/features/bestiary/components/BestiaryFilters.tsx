@@ -9,6 +9,10 @@ type BestiaryFiltersProps = {
   selectedTerms: BestiaryPageViewData["selectedTerms"];
 };
 
+type TaxonomyTermWithOptionalCount = BestiaryPageViewData["taxonomyTerms"][number] & {
+  count?: number;
+};
+
 const BestiaryFilters = ({ taxonomyTerms, selectedTerms }: BestiaryFiltersProps) => {
   const pathname = usePathname();
   const router = useRouter();
@@ -37,14 +41,16 @@ const BestiaryFilters = ({ taxonomyTerms, selectedTerms }: BestiaryFiltersProps)
   return (
     <div>
       <p>Filters</p>
-      <ul>
+      <ul className="flex flex-wrap gap-[10px] w-full">
         {taxonomyTerms.map((term) => {
           const isSelected = selectedTerms.includes(term.slug);
+          const count = (term as TaxonomyTermWithOptionalCount).count;
 
           return (
             <li key={term.id}>
               <button onClick={() => handleToggle(term.slug)} type="button">
                 {isSelected ? "[x]" : "[ ]"} {term.title}
+                {typeof count === "number" ? ` (${count})` : ""}
               </button>
             </li>
           );

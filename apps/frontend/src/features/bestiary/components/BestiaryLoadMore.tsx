@@ -2,12 +2,18 @@ type BestiaryLoadMoreProps = {
   onClick: () => void;
   loading: boolean;
   disabled: boolean;
+  label?: string;
 };
 
-const BestiaryLoadMore = ({ onClick, loading, disabled }: BestiaryLoadMoreProps) => {
+const BestiaryLoadMore = ({
+  onClick,
+  loading,
+  disabled,
+  label = "Load more",
+}: BestiaryLoadMoreProps) => {
   return (
     <button disabled={disabled} onClick={onClick} type="button">
-      {loading ? "Loading..." : "Load more"}
+      {loading ? "Loading..." : label}
     </button>
   );
 };

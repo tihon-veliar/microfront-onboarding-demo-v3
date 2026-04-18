@@ -5,9 +5,7 @@ import { getArchivePage } from "@/services/cms/getArchivePage";
 
 export default async function Home() {
   const data = await getHomePageData();
-  const _data = await getArchivePage();
 
-  console.log("_data", _data);
 
   if (!data) {
     notFound();

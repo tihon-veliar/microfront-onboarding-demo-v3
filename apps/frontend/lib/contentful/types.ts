@@ -82,3 +82,24 @@ export type ArchivePageData = {
   pageTitle: string;
   pageDescription: string;
 };
+
+export type TaxonomyType = "category" | "segment" | "locale";
+
+export type TaxonomyTermFields = {
+  title: string;
+  slug: string;
+  type: TaxonomyType;
+  parent?: {
+    sys?: {
+      id?: string;
+    };
+  };
+};
+
+export type TaxonomyTerm = {
+  id: string;
+  title: string;
+  slug: string;
+  type: TaxonomyType;
+  parentId: string | null;
+};

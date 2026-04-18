@@ -7,6 +7,8 @@ import type {
   CreatureCard,
   CreatureDetail,
   ArchivePageData,
+  TaxonomyTerm,
+  TaxonomyType,
 } from "./types";
 
 type ContentfulAsset = {
@@ -271,5 +273,29 @@ export function mapArchivePage(entry: ArchivePageEntry): ArchivePageData {
     slug: fields?.slug || "",
     pageTitle: fields?.pageTitle || "",
     pageDescription: fields?.pageDescription || "",
+  };
+}
+
+type TaxonomyTermEntry = {
+  sys?: {
+    id?: string;
+  };
+  fields?: {
+    title?: string;
+    slug?: string;
+    type?: TaxonomyType;
+    parent?: ContentfulEntryLink;
+  };
+};
+
+export function mapTaxonomyTerm(entry: TaxonomyTermEntry): TaxonomyTerm {
+  const fields = entry.fields;
+
+  return {
+    id: entry.sys?.id || "",
+    title: fields?.title || "",
+    slug: fields?.slug || "",
+    type: fields?.type || "category",
+    parentId: fields?.parent?.sys?.id || null,
   };
 }

@@ -7,7 +7,7 @@ type BestiaryGridProps = {
 
 const BestiaryGrid = ({ items }: BestiaryGridProps) => {
   return (
-    <ul className="grid grid-cols-1 w-full gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-2">
+    <ul className="grid grid-cols-1 w-full gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-2">
       {items.map((item) => (
         <CreatureCardView creature={item} key={item.id} />
       ))}

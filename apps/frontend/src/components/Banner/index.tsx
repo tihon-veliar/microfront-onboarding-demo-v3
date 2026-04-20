@@ -8,7 +8,6 @@ interface BannerProps {
 const Banner = ({ image }: BannerProps) => {
   if (!image?.url) return null;
 
-  console.log(image);
   return (
     <div className="text-center">
       <div className="relative mx-auto max-h-400 w-fit">

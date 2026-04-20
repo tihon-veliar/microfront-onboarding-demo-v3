@@ -47,3 +47,31 @@
     animation: pulse-banner 1.5s ease-in-out infinite;
   }
 }
+
+@layer components {
+  .scrollbar-featured {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.9) transparent;
+    background: transparent;
+  }
+
+  .scrollbar-featured::-webkit-scrollbar {
+    height: 10px;
+    background: transparent;
+  }
+
+  .scrollbar-featured::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 9999px;
+  }
+
+  .scrollbar-featured::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.35);
+    border: 2px solid #ffffff;
+    border-radius: 9999px;
+  }
+
+  .scrollbar-featured::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.5);
+  }
+}

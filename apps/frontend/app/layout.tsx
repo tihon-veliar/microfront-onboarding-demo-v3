@@ -34,7 +34,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${pixel.variable} h-full antialiased`}
     >
-      <body className="p-4 min-h-[100vh] min-w-[100vw] max-h-[100vh] max-w-[100vw] bg-[#79c9f7] bg-[url('/bg.png')] bg-fixed bg-no-repeat bg-cover bg-center">
+      <body className=" p-8 min-h-screen min-w-screen max-h-screen max-w-[100vw] bg-[#79c9f7] bg-[url('/bg.png')] bg-fixed bg-no-repeat bg-cover bg-center">
         <Layout>{children}</Layout>
       </body>
     </html>

@@ -15,8 +15,8 @@ const Banner = ({ image }: BannerProps) => {
         <CmsImage
           image={image}
           alt={image.alt || "Banner"}
-          width={800}
-          height={400}
+          width={500}
+          height={250}
           className="rounded-md object-cover animate-pulse-banner"
           sizes="(min-width: 768px) 800px, 100vw"
         />

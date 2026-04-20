@@ -15,9 +15,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
           <button className="btn-ghost">Bestiary</button>
         </Link>
       </div>
-      <div className="flex items-center justify-center">
-        <div className="">{children}</div>
-      </div>
+      <div className="flex items-center justify-center max-w-[1250px] m-auto">{children}</div>
     </>
   );
 };

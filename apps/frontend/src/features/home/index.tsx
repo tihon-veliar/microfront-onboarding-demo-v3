@@ -1,7 +1,9 @@
-import { CreatureCard, HomePageData } from "@/lib/contentful/types";
+import Link from "next/link";
+
+import type { CreatureCard, HomePageData } from "@/lib/contentful/types";
 import Banner from "@/src/components/Banner";
 import RichText from "@/src/components/RichText";
-import Link from "next/link";
+import FeaturedCreaturesSection from "./components/FeaturedCreaturesSection";
 
 type HomePageProps = {
   homePage: HomePageData;
@@ -9,13 +11,10 @@ type HomePageProps = {
 };
 
 const HomePage = ({ homePage, featuredCreatures }: HomePageProps) => {
-  const { title, slug, hero, imageTextSection } = homePage;
-
-  console.log(hero);
-  console.log(imageTextSection);
+  const { title, hero, imageTextSection, featuredSection } = homePage;
 
   return (
-    <div className="p-0 md:p-8">
+    <div className="p-0 md:p-8 max-w-full">
       <Banner image={imageTextSection?.image} />
 
       <h1 className="mb-4 text-center text-4xl font-bold">{title}</h1>
@@ -26,9 +25,14 @@ const HomePage = ({ homePage, featuredCreatures }: HomePageProps) => {
 
       <div className="mt-8 flex justify-center">
         <Link href="/bestiary">
-          <p className="text-[20px] md:text-[30px]">Research</p>
+          <p className="text-[20px] md:text-[30px]">{hero?.ctaText || "Research"}</p>
         </Link>
       </div>
+
+      <FeaturedCreaturesSection
+        creatures={featuredCreatures}
+        title={featuredSection?.title || "Featured Creatures"}
+      />
     </div>
   );
 };

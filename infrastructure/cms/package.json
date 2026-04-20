@@ -1,5 +1,21 @@
 {
   "name": "@infra/cms",
   "private": true,
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "scripts": {
+    "migrate": "tsx ./scripts/run-migrations.ts",
+    "seed": "tsx ./scripts/run-seed.ts"
+  },
+  "devDependencies": {
+    "contentful-cli": "^3.10.4",
+    "contentful-migration": "^4.32.0",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.4.2",
+    "dotenv-cli": "^11.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^20.19.39",
+    "contentful-management": "^12.3.1",
+    "inquirer": "^13.4.1"
+  }
 }

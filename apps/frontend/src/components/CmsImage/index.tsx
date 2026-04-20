@@ -53,7 +53,6 @@ const CmsImage = ({
     return null;
   }
 
-  console.log(blurDataURL);
   return (
     <Image
       {...props}

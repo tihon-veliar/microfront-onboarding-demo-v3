@@ -77,7 +77,6 @@ const CreatureCardView = ({ creature }: CreatureCardP) => {
       getDeterministicIndex(`${creature.id}-${creature.slug}`, CARD_BACKGROUND_COLORS.length)
     ];
 
-  console.log(creature);
 
   return (
     <li className="snap-start" key={creature.id}>

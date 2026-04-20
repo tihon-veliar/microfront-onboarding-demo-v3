@@ -100,7 +100,7 @@ const BestiaryFilters = ({ taxonomyTerms, selectedTerms }: BestiaryFiltersProps)
             isExpanded ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
           }`}
         >
-          <div className="min-h-0 overflow-hidden">
+          <div className="min-h-0 overflow-scroll  max-h-[80vh]">
             <div className="px-4 pb-4 pt-4 md:px-5 md:pb-5">
               <div
                 className="flex flex-wrap items-center gap-2 rounded-[1.5rem] bg-slate-100/85 p-2 md:gap-3 md:p-3"

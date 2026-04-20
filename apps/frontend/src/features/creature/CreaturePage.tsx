@@ -62,7 +62,7 @@ const CreaturePage = ({ creature, taxonomyTerms = [] }: CreaturePageProps) => {
   const hasExternalLink = creature.externalResourceLink.trim().length > 0;
 
   return (
-    <main className="mx-auto flex w-full max-w-6xl flex-col gap-6 px-4 py-4 md:gap-8 md:px-8 md:py-8">
+    <main className="mx-auto flex w-full max-w-6xl flex-col gap-6 px-0 py-2 md:gap-8 md:px-8 md:py-8">
       <div>
         <Link className="inline-flex min-h-11 items-center justify-center " href="/bestiary">
           {"< "} Back to bestiary

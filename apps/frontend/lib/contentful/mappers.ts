@@ -9,7 +9,9 @@ import type {
   ArchivePageData,
   TaxonomyTerm,
   TaxonomyType,
+  SeoFields,
 } from "./types";
+import type { Document } from "@contentful/rich-text-types";
 
 type ContentfulAsset = {
   fields?: {
@@ -60,10 +62,19 @@ type FeaturedCreaturesBlockEntry = {
   };
 };
 
+type SeoEntry = {
+  fields?: {
+    title?: string;
+    description?: string;
+    image?: ContentfulAsset;
+  };
+};
+
 type HomePageEntry = {
   fields?: {
     title?: string;
     slug?: string;
+    seo?: SeoEntry;
     hero?: HeroBlockEntry;
     imageTextSection?: ImageTextBlockEntry;
     featuredSection?: FeaturedCreaturesBlockEntry;
@@ -90,7 +101,9 @@ type GraphQLCreature = {
   };
   name?: string | null;
   slug?: string | null;
-  shortDescription?: string | null;
+  shortDescription?: {
+    json?: unknown;
+  } | null;
   description?: {
     json?: unknown;
   } | null;
@@ -105,6 +118,36 @@ type GraphQLCreature = {
     items?: Array<GraphQLTaxonomyItem | null> | null;
   } | null;
 };
+
+export function mapSeo(entry?: SeoEntry): SeoFields | null {
+  const fields = entry?.fields;
+
+  if (!fields) {
+    return null;
+  }
+
+  return {
+    title: fields.title || "",
+    description: fields.description || "",
+    image: mapAssetImage(fields.image),
+  };
+}
+
+function mapRichTextDocument(value: unknown): Document | null {
+  if (
+    value &&
+    typeof value === "object" &&
+    "nodeType" in value &&
+    value.nodeType === "document" &&
+    "content" in value &&
+    Array.isArray(value.content) &&
+    "data" in value
+  ) {
+    return value as Document;
+  }
+
+  return null;
+}
 
 export function mapGraphQLAssetImage(asset?: GraphQLAsset | null): ContentfulImage | null {
   if (!asset?.url || !asset.width || !asset.height) {
@@ -124,8 +167,8 @@ export function mapCreatureDetail(entry: GraphQLCreature): CreatureDetail {
     id: entry.sys?.id || "",
     name: entry.name || "",
     slug: entry.slug || "",
-    shortDescription: entry.shortDescription || "",
-    description: entry.description?.json ?? null,
+    shortDescription: mapRichTextDocument(entry.shortDescription?.json),
+    description: mapRichTextDocument(entry.description?.json),
     image: mapGraphQLAssetImage(entry.coverImage),
     creatureIndex: typeof entry.creatureIndex === "number" ? entry.creatureIndex : null,
     height: typeof entry.height === "number" ? entry.height : null,
@@ -191,7 +234,7 @@ export function mapImageTextBlock(entry?: ImageTextBlockEntry): HomeImageTextSec
 
   return {
     title: fields.title || "",
-    content: fields.content ?? null,
+    content: mapRichTextDocument(fields.content),
     imageAlignment: alignment,
     image: mapAssetImage(fields.image),
   };
@@ -220,6 +263,7 @@ export function mapHomePage(entry: HomePageEntry): HomePageData {
   return {
     title: fields?.title || "",
     slug: fields?.slug || "",
+    seo: mapSeo(fields?.seo),
     hero: mapHeroBlock(fields?.hero),
     imageTextSection: mapImageTextBlock(fields?.imageTextSection),
     featuredSection: mapFeaturedCreaturesBlock(fields?.featuredSection),
@@ -249,7 +293,7 @@ export function mapCreatureCard(entry: CreatureEntry): CreatureCard {
     id: entry.sys?.id || "",
     name: fields?.name || "",
     slug: fields?.slug || "",
-    shortDescription: fields?.shortDescription?.json ?? null,
+    shortDescription: mapRichTextDocument(fields?.shortDescription?.json),
     image: mapAssetImage(fields?.coverImage),
     creatureIndex: typeof fields?.creatureIndex === "number" ? fields.creatureIndex : null,
     rating: typeof fields?.rating === "number" ? fields.rating : null,
@@ -260,6 +304,7 @@ type ArchivePageEntry = {
   fields?: {
     title?: string;
     slug?: string;
+    seo?: SeoEntry;
     pageTitle?: string;
     pageDescription?: string;
   };
@@ -271,6 +316,7 @@ export function mapArchivePage(entry: ArchivePageEntry): ArchivePageData {
   return {
     title: fields?.title || "",
     slug: fields?.slug || "",
+    seo: mapSeo(fields?.seo),
     pageTitle: fields?.pageTitle || "",
     pageDescription: fields?.pageDescription || "",
   };

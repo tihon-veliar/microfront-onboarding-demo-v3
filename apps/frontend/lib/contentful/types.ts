@@ -7,6 +7,12 @@ export type ContentfulImage = {
   alt: string;
 };
 
+export type SeoFields = {
+  title: string;
+  description: string;
+  image: ContentfulImage | null;
+};
+
 export type HomeHero = {
   title: string;
   subtitle: string;
@@ -17,7 +23,7 @@ export type HomeHero = {
 
 export type HomeImageTextSection = {
   title: string;
-  content: Document;
+  content: Document | null;
   imageAlignment: "left" | "right";
   image: ContentfulImage | null;
 };
@@ -30,6 +36,7 @@ export type HomeFeaturedSection = {
 export type HomePageData = {
   title: string;
   slug: string;
+  seo: SeoFields | null;
   hero: HomeHero | null;
   imageTextSection: HomeImageTextSection | null;
   featuredSection: HomeFeaturedSection | null;
@@ -39,9 +46,7 @@ export type CreatureCard = {
   id: string;
   name: string;
   slug: string;
-  shortDescription: {
-    json?: unknown;
-  } | null;
+  shortDescription: Document | null;
   image: ContentfulImage | null;
   creatureIndex: number | null;
   rating: number | null;
@@ -64,8 +69,8 @@ export type CreatureDetail = {
   id: string;
   name: string;
   slug: string;
-  shortDescription: Record<string, unknown> | null;
-  description: unknown;
+  shortDescription: Document | null;
+  description: Document | null;
   image: ContentfulImage | null;
   creatureIndex: number | null;
   height: number | null;
@@ -79,6 +84,7 @@ export type CreatureDetail = {
 export type ArchivePageData = {
   title: string;
   slug: string;
+  seo: SeoFields | null;
   pageTitle: string;
   pageDescription: string;
 };

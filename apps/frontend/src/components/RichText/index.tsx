@@ -3,7 +3,7 @@ import type { Document } from "@contentful/rich-text-types";
 import type { ReactNode } from "react";
 
 interface RichTextProps {
-  content?: Document;
+  content?: Document | null;
 }
 
 const RichText = ({ content }: RichTextProps): ReactNode => {

@@ -1,7 +1,7 @@
 import type { CreatureDetail, TaxonomyTerm } from "@/lib/contentful/types";
-import RichText from "@/src/components/RichText";
 import Image from "next/image";
 import Link from "next/link";
+import RichText from "@/src/components/RichText";
 
 type CreaturePageProps = {
   creature: CreatureDetail;
@@ -27,12 +27,8 @@ const CreaturePage = ({ creature, taxonomyTerms = [] }: CreaturePageProps) => {
     formatMetric(creature.rating, "Rating"),
   ].filter((metric): metric is { label: string; value: number } => metric !== null);
 
-  const hasShortDescription =
-    typeof creature.shortDescription === "string" && creature.shortDescription.trim().length > 0;
-  const hasDescription =
-    typeof creature.description === "object" &&
-    creature.description !== null &&
-    "nodeType" in creature.description;
+  const hasShortDescription = creature.shortDescription?.nodeType === "document";
+  const hasDescription = creature.description?.nodeType === "document";
   const hasAbilities = creature.abilities.length > 0;
   const hasTaxonomyTerms = taxonomyTerms.length > 0;
   const hasExternalLink = creature.externalResourceLink.trim().length > 0;
@@ -47,7 +43,7 @@ const CreaturePage = ({ creature, taxonomyTerms = [] }: CreaturePageProps) => {
 
       <header className="mb-8 space-y-3">
         <h1 className="text-3xl font-bold">{creature.name}</h1>
-        {hasShortDescription ? <p>{creature.shortDescription}</p> : null}
+        {hasShortDescription ? <RichText content={creature.shortDescription} /> : null}
       </header>
 
       {creature.image ? (

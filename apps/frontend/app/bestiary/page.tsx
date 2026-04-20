@@ -1,6 +1,9 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 
 import BestiaryPage from "@/src/features/bestiary";
+import { fromSeo } from "@/lib/metadata/fromSeo";
+import { getArchivePage } from "@/services/cms/getArchivePage";
 import { getBestiaryPageData } from "@/services/cms/pages/getBestiaryPageData";
 
 type BestiaryRouteProps = {
@@ -33,6 +36,12 @@ function parsePage(value?: string): number {
   }
 
   return Math.floor(parsed);
+}
+
+export async function generateMetadata(): Promise<Metadata> {
+  const archivePage = await getArchivePage();
+
+  return fromSeo(archivePage?.seo);
 }
 
 export default async function Bestiary({ searchParams }: BestiaryRouteProps) {

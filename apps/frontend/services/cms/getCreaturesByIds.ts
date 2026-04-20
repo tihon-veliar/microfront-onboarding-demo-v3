@@ -9,7 +9,7 @@ export async function getCreaturesByIds(ids: string[]): Promise<CreatureCard[]> 
 
   const response = await contentfulClient.getEntries({
     content_type: "creature",
-    "sys.id[in]": ids.join(","),
+    "sys.id[in]": ids,
     include: 2,
     limit: ids.length,
   });

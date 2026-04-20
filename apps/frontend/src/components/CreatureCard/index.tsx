@@ -82,9 +82,9 @@ const CreatureCardView = ({ creature }: CreatureCardP) => {
   return (
     <li className="snap-start" key={creature.id}>
       <Link className="group block h-full" href={`/bestiary/${creature.slug}`}>
-        <article className="flex h-full flex-col overflow-hidden rounded-2xl border-2 border-black/10 transition-transform duration-200 group-hover:-translate-y-1 group-focus-visible:-translate-y-1">
+        <article className="flex h-full flex-col overflow-hidden rounded-2xl border-2 border-black/5 transition-transform duration-200 group-hover:-translate-y-1 group-focus-visible:-translate-y-1">
           {creature.image ? (
-            <div className="relative ">
+            <div className="relative bg-white/10 backdrop-blur supports-backdrop-filter:bg-white/10">
               <CmsImage
                 image={creature.image}
                 alt={creature.image.alt || creature.name}

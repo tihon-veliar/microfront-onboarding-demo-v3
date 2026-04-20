@@ -1,6 +1,6 @@
 "use client";
 
-import { startTransition, useEffect, useRef, useState } from "react";
+import { startTransition, useEffect, useEffectEvent, useRef, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 
 import BestiaryEmptyState from "./components/BestiaryEmptyState";
@@ -49,6 +49,14 @@ function getPageFromUrl(): number {
   return Math.floor(parsed);
 }
 
+function getModeButtonClass(isActive: boolean) {
+  return `inline-flex min-h-11 items-center justify-center rounded-full border px-4 py-2 text-sm font-medium transition focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-950/70 focus-visible:ring-offset-2 ${
+    isActive
+      ? "border-slate-950 bg-slate-950 text-white shadow-[0_12px_24px_rgba(15,23,42,0.22)]"
+      : "border-slate-200 bg-white text-slate-700 hover:border-sky-300 hover:bg-sky-50 hover:text-slate-950"
+  }`;
+}
+
 const BestiaryListingClient = ({
   initialItems,
   initialPagination,
@@ -93,10 +101,7 @@ const BestiaryListingClient = ({
     window.localStorage.setItem("bestiary-pagination-mode", mode);
   }, [mode]);
 
-  const hasNext =
-    mode === "infinite"
-      ? items.length < total
-      : currentPage < totalPages;
+  const hasNext = mode === "infinite" ? items.length < total : currentPage < totalPages;
   const hasPrev = currentPage > 1;
 
   function updatePageInUrl(nextPage: number) {
@@ -215,6 +220,14 @@ const BestiaryListingClient = ({
     });
   }
 
+  const handleLoadMoreEvent = useEffectEvent(() => {
+    void handleLoadMore();
+  });
+
+  const handlePopStateEvent = useEffectEvent((nextPage: number) => {
+    void handlePageChange(nextPage, { syncUrl: false });
+  });
+
   useEffect(() => {
     if (mode !== "infinite" || loading || !hasNext) {
       return;
@@ -230,7 +243,7 @@ const BestiaryListingClient = ({
       const entry = entries[0];
 
       if (entry?.isIntersecting) {
-        void handleLoadMore();
+        handleLoadMoreEvent();
       }
     });
 
@@ -250,7 +263,7 @@ const BestiaryListingClient = ({
       const nextPage = Math.min(getPageFromUrl(), totalPages);
 
       if (nextPage !== currentPage) {
-        void handlePageChange(nextPage, { syncUrl: false });
+        handlePopStateEvent(nextPage);
       }
     }
 
@@ -262,31 +275,58 @@ const BestiaryListingClient = ({
   }, [mode, currentPage, totalPages, loading, selectedTerms]);
 
   return (
-    <div>
-      <div>
-        <button
-          aria-label="Switch to infinite scroll mode"
-          disabled={mode === "infinite"}
-          onClick={() => handleModeChange("infinite")}
-          type="button"
-        >
-          Infinite
-        </button>
-        <button
-          aria-label="Switch to paged navigation mode"
-          disabled={mode === "prev-next"}
-          onClick={() => handleModeChange("prev-next")}
-          type="button"
-        >
-          Prev / Next
-        </button>
+    <section className="flex flex-col gap-5 md:gap-6">
+      <div className="sticky top-[7rem] z-20 md:top-[8rem] mb-2 mt-2">
+        <div className="flex flex-wrap items-center justify-between gap-3 rounded-[1.5rem] border border-slate-900/10  px-4 py-3 shadow-[0_14px_30px_rgba(15,23,42,0.1)] bg-white/10 backdrop-blur supports-backdrop-filter:bg-white/10 md:px-5">
+          <div className="min-w-0">
+            <p className="text-[0.7rem] font-semibold uppercase tracking-[0.26em] text-slate-500">
+              Navigation mode
+            </p>
+            <p className="mt-1 text-sm text-slate-700 md:text-base">
+              {mode === "infinite"
+                ? `Showing ${items.length} of ${total} creatures`
+                : `Page ${currentPage} of ${totalPages}`}
+            </p>
+          </div>
+
+          <div
+            aria-label="Listing mode switcher"
+            className="flex flex-wrap items-center gap-2"
+            role="group"
+          >
+            <button
+              aria-label="Switch to infinite scroll mode"
+              aria-pressed={mode === "infinite"}
+              className={getModeButtonClass(mode === "infinite")}
+              disabled={mode === "infinite"}
+              onClick={() => handleModeChange("infinite")}
+              type="button"
+            >
+              Infinite
+            </button>
+            <button
+              aria-label="Switch to paged navigation mode"
+              aria-pressed={mode === "prev-next"}
+              className={getModeButtonClass(mode === "prev-next")}
+              disabled={mode === "prev-next"}
+              onClick={() => handleModeChange("prev-next")}
+              type="button"
+            >
+              Prev / Next
+            </button>
+          </div>
+        </div>
       </div>
 
       {error ? (
-        <div>
+        <div className="rounded-[1.5rem] border border-rose-200 bg-rose-50 px-4 py-3 text-rose-900">
           <p role="alert">{error}</p>
           {retryActionRef.current ? (
-            <button onClick={() => retryActionRef.current?.()} type="button">
+            <button
+              className="mt-3 inline-flex min-h-10 items-center justify-center rounded-full border border-rose-300 bg-white px-4 py-2 text-sm font-medium text-rose-900 transition hover:bg-rose-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-rose-400 focus-visible:ring-offset-2"
+              onClick={() => retryActionRef.current?.()}
+              type="button"
+            >
               Retry
             </button>
           ) : null}
@@ -294,18 +334,18 @@ const BestiaryListingClient = ({
       ) : null}
 
       {loading ? (
-        <p aria-live="polite">
+        <p aria-live="polite" className="text-sm font-medium text-slate-600">
           {mode === "infinite" ? "Loading more creatures..." : "Loading page..."}
         </p>
       ) : null}
 
-      <div ref={listRef} tabIndex={-1}>
+      <div className="min-h-[12rem]" ref={listRef} tabIndex={-1}>
         {items.length === 0 ? <BestiaryEmptyState /> : <BestiaryGrid items={items} />}
       </div>
 
       {mode === "infinite" ? (
         hasNext ? (
-          <div ref={loadMoreRef}>
+          <div className="flex justify-center pt-2" ref={loadMoreRef}>
             <BestiaryLoadMore
               ariaLabel="Load more creatures"
               disabled={loading}
@@ -315,7 +355,11 @@ const BestiaryListingClient = ({
           </div>
         ) : null
       ) : (
-        <div aria-label="Pagination" role="navigation">
+        <div
+          aria-label="Pagination"
+          className="flex flex-wrap items-center justify-center gap-2 rounded-[1.5rem] border border-slate-900/10 bg-slate-50 px-3 py-3 md:px-4"
+          role="navigation"
+        >
           <BestiaryLoadMore
             ariaLabel="Go to previous page"
             disabled={loading || !hasPrev}
@@ -325,13 +369,18 @@ const BestiaryListingClient = ({
           />
           {visiblePages.map((pageNumber, index) =>
             pageNumber === "ellipsis" ? (
-              <span aria-hidden="true" key={`ellipsis-${index}`}>
+              <span
+                aria-hidden="true"
+                className="inline-flex min-h-11 min-w-11 items-center justify-center text-sm text-slate-400"
+                key={`ellipsis-${index}`}
+              >
                 ...
               </span>
             ) : (
               <button
                 aria-current={pageNumber === currentPage ? "page" : undefined}
                 aria-label={`Go to page ${pageNumber}`}
+                className={getModeButtonClass(pageNumber === currentPage)}
                 disabled={loading || pageNumber === currentPage}
                 key={pageNumber}
                 onClick={() => handlePageChange(pageNumber)}
@@ -350,7 +399,7 @@ const BestiaryListingClient = ({
           />
         </div>
       )}
-    </div>
+    </section>
   );
 };
 

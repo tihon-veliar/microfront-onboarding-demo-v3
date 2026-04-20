@@ -91,7 +91,7 @@ export function createManagementClient() {
       type: "plain",
       defaults: {
         spaceId: process.env.CONTENTFUL_SPACE_ID!,
-        environmentId: process.env.CONTENTFUL_ENV!,
+        environmentId: process.env.CONTENTFUL_ENVIRONMENT_ID!,
       },
     },
   );

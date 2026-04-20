@@ -26,7 +26,7 @@ export async function seedTaxonomies(client: PlainClientAPI): Promise<void> {
     try {
       const entry = await client.entry.createWithId(
         {
-          contentTypeId: CONTENT_TYPE_IDS.creature,
+          contentTypeId: CONTENT_TYPE_IDS.taxonomyTerm,
           entryId,
         },
         {

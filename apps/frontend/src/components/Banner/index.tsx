@@ -1,5 +1,5 @@
-import { ContentfulImage } from "@/lib/contentful/types";
-import Image from "next/image";
+import type { ContentfulImage } from "@/lib/contentful/types";
+import CmsImage from "@/src/components/CmsImage";
 
 interface BannerProps {
   image?: ContentfulImage | null;
@@ -8,15 +8,17 @@ interface BannerProps {
 const Banner = ({ image }: BannerProps) => {
   if (!image?.url) return null;
 
+  console.log(image);
   return (
     <div className="text-center">
       <div className="relative mx-auto max-h-400 w-fit">
-        <Image
-          src={image.url}
+        <CmsImage
+          image={image}
           alt={image.alt || "Banner"}
-          width={800} // лучше реальные размеры из CMS
+          width={800}
           height={400}
           className="rounded-md object-cover animate-pulse-banner"
+          sizes="(min-width: 768px) 800px, 100vw"
         />
       </div>
     </div>

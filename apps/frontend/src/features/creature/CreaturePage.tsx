@@ -1,6 +1,7 @@
 import type { CreatureDetail, TaxonomyTerm } from "@/lib/contentful/types";
-import Image from "next/image";
 import Link from "next/link";
+
+import CmsImage from "@/src/components/CmsImage";
 import RichText from "@/src/components/RichText";
 
 type CreaturePageProps = {
@@ -49,14 +50,12 @@ const CreaturePage = ({ creature, taxonomyTerms = [] }: CreaturePageProps) => {
       {creature.image ? (
         <section className="mb-8">
           <div className="relative overflow-hidden rounded-md border">
-            <Image
+            <CmsImage
+              image={creature.image}
               alt={creature.image.alt || creature.name}
               className="h-auto w-full"
-              height={creature.image.height}
-              priority
+              preload
               sizes="(min-width: 1024px) 896px, 100vw"
-              src={creature.image.url}
-              width={creature.image.width}
             />
           </div>
         </section>

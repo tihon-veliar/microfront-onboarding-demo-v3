@@ -20,7 +20,9 @@ const HomePage = ({ homePage, featuredCreatures }: HomePageProps) => {
 
       <h1 className="mb-4 text-center text-4xl font-bold">{title}</h1>
 
-      <div className="mb-4 [&_p]:text-center"><RichText content={imageTextSection?.content} /></div>
+      <div className="mb-4 [&_p]:text-center">
+        <RichText content={imageTextSection?.content} />
+      </div>
 
       <div className="mt-8 flex justify-center">
         <Link href="/bestiary">

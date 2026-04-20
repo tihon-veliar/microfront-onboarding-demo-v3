@@ -1,22 +1,43 @@
-Тогда в README пиши через package scripts, не через `ts-node`.
+# CMS Infrastructure
 
-Готовый блок:
+`@infra/cms` contains the Contentful schema and data bootstrapping workflow for the demo.
 
----
+It is responsible for:
 
-## CMS: Migrations & Seeding
+- defining content models through migration scripts
+- creating repeatable demo data through seed scripts
+- preparing a Contentful environment that the frontend can consume
 
-### Migrations
+## Content Model
 
-Content models are defined via migration scripts.
+Migrations create the following content types:
 
-They are used to:
+- `taxonomyTerm`
+- `creature`
+- `heroBlock`
+- `imageTextBlock`
+- `featuredCreaturesBlock`
+- `homePage`
+- `archivePage`
 
-* create and update content types
-* define fields and validations
-* ensure consistent schema across environments
+## Environment Variables
 
-#### Run migrations
+Create `infrastructure/cms/.env` with:
+
+```bash
+CONTENTFUL_SPACE_ID=your_space_id
+CONTENTFUL_MANAGEMENT_TOKEN=your_management_token
+CONTENTFUL_ENVIRONMENT_ID=master
+CONTENTFUL_ENV=master
+```
+
+Notes:
+
+- `migrate` reads `CONTENTFUL_ENVIRONMENT_ID`
+- `seed` currently reads `CONTENTFUL_ENV`
+- until those names are unified in code, set both variables to the same Contentful environment
+
+## Run Migrations
 
 From the monorepo root:
 
@@ -24,25 +45,9 @@ From the monorepo root:
 pnpm --filter @infra/cms migrate
 ```
 
----
+This runs the migration files in order and creates or updates the schema in Contentful.
 
-### Seeding
-
-Seed scripts are used for **bulk data population**.
-
-They cover:
-
-* taxonomy terms
-* creatures (entities)
-* asset uploads and linking
-
-Seed is designed for:
-
-* repeatable environment setup
-* fast demo preparation
-* avoiding manual entry of large datasets
-
-#### Run seed
+## Run Seed
 
 From the monorepo root:
 
@@ -50,7 +55,7 @@ From the monorepo root:
 pnpm --filter @infra/cms seed
 ```
 
-#### Select target in CLI
+The seed runner is interactive and lets you choose:
 
 ```text
 0 - Exit
@@ -59,39 +64,42 @@ pnpm --filter @infra/cms seed
 3 - All
 ```
 
----
+Seed covers:
 
-### Why not seed everything?
+- taxonomy terms
+- creature entries
+- asset upload/import for creature images
 
-Not all content is seeded intentionally.
+Recommended flow:
 
-We distinguish between:
+1. Run migrations
+2. Run seed
+3. Create editorial pages manually in Contentful
 
-#### Structured / high-volume data
+## What Is Seeded vs Manual
 
-→ handled via seed
-(e.g. taxonomies, creatures)
+Seeded content:
 
-#### Editorial / low-volume content
+- high-volume taxonomy data
+- creature entities
+- linked creature images
 
-→ created manually in CMS
-(e.g. landing page, listing page)
+Manual content in Contentful:
 
-Reason:
+- home page editorial structure
+- archive page editorial copy
+- hero and marketing-style blocks used by pages
 
-* small number of entries
-* content is inherently editorial
-* reflects real-world CMS workflows
-* avoids unnecessary seed complexity
+This split keeps demo setup repeatable without over-automating low-volume editorial content.
 
----
+## Useful Commands
 
-### Workflow
+```bash
+pnpm --filter @infra/cms migrate
+pnpm --filter @infra/cms seed
+```
 
-1. Run migrations → create schema
-2. Run seed → populate core data
-3. Create editorial pages manually in CMS
+## Current Caveats
 
----
-
-Если у тебя scripts названы иначе, просто скинь `package.json` пакета `@infra/cms`, и я дам точный финальный блок.
+- `seedTaxonomies` should be reviewed before production use, because it appears to create entries with the `creature` content type instead of `taxonomyTerm`
+- editorial pages are not created by seed, so the frontend will not be fully functional until those entries exist

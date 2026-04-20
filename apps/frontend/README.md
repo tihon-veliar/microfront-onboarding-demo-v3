@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend App
 
-## Getting Started
+`@apps/frontend` is a Next.js 16 application that renders the public demo experience on top of Contentful content.
 
-First, run the development server:
+## What It Includes
+
+- Home page at `/`
+- Bestiary listing at `/bestiary`
+- Creature details at `/bestiary/[slug]`
+- JSON API for incremental loading at `/api/bestiary`
+
+The app uses:
+
+- Contentful Delivery API via the `contentful` SDK for collection queries
+- Contentful GraphQL API for creature detail queries
+- App Router with server components
+- Tailwind CSS v4 and Chakra UI
+
+## Environment Variables
+
+Create `apps/frontend/.env` with:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+NEXT_PUBLIC_CONTENTFUL_SPACE_ID=your_space_id
+CONTENTFUL_DELIVERY_TOKEN=your_content_delivery_token
+NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT=master
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Notes:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `NEXT_PUBLIC_CONTENTFUL_ENVIRONMENT` is optional in code and defaults to `master`
+- the app throws on startup if the space ID or delivery token is missing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Run Locally
 
-## Learn More
+From the monorepo root:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+pnpm install
+pnpm --filter @apps/frontend dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open `http://localhost:3000`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Useful commands:
 
-## Deploy on Vercel
+```bash
+pnpm --filter @apps/frontend dev
+pnpm --filter @apps/frontend build
+pnpm --filter @apps/frontend start
+pnpm --filter @apps/frontend lint
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Content Dependencies
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The frontend expects the following Contentful content to exist:
+
+- `homePage` entry with slug `home`
+- `archivePage` entry with slug `bestiary`
+- `creature` entries
+- `taxonomyTerm` entries
+- assets linked from creature and page content
+
+If `homePage` or `archivePage` is missing, the related route falls back to `notFound()`.
+
+## Data Flow
+
+- `services/cms/*` contains data-fetching functions
+- `lib/contentful/*` contains clients, queries, mappers, and shared types
+- `src/features/*` contains page-level UI composition
+- `src/components/*` contains reusable presentation components
+
+## Notes
+
+- Remote images are allowed from `https://images.ctfassets.net/**`
+- Bestiary filtering is taxonomy-based
+- The listing page supports server-rendered initial data plus client-side loading through `/api/bestiary`

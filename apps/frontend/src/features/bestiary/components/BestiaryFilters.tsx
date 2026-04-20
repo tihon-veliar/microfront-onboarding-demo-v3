@@ -74,7 +74,7 @@ const BestiaryFilters = ({ taxonomyTerms, selectedTerms }: BestiaryFiltersProps)
               Bestiary controls
             </p>
             <div className="mt-1 flex flex-wrap items-center gap-2 jus">
-              <p className="text-sm font-semibold mb-0" id="bestiary-filters-heading">
+              <p className="text-sm font-semibold !mb-0" id="bestiary-filters-heading">
                 Filters
               </p>
               <span className="rounded-full border border-balck/15 bg-gray/10 px-2.5 py-1 text-[0.68rem] font-medium uppercase tracking-[0.18em] text-black/85">

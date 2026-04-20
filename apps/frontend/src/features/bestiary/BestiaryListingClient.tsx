@@ -277,7 +277,7 @@ const BestiaryListingClient = ({
   return (
     <section className="flex flex-col gap-5 md:gap-6">
       <div className="sticky top-[7rem] z-20 md:top-[8rem] mb-2 mt-2">
-        <div className="flex flex-wrap items-center justify-between gap-3 rounded-[1.5rem] border border-slate-900/10  px-4 py-3 shadow-[0_14px_30px_rgba(15,23,42,0.1)] bg-white/10 backdrop-blur supports-backdrop-filter:bg-white/10 md:px-5">
+        <div className="flex flex-wrap items-center justify-between gap-3 rounded-[1.5rem] border border-slate-900/10  px-4 py-3 shadow-[0_14px_30px_rgba(15,23,42,0.1)] bg-white/10backdrop-blur supports-backdrop-filter:bg-white/10 md:px-5">
           <div className="min-w-0">
             <p className="text-[0.7rem] font-semibold uppercase tracking-[0.26em] text-slate-500">
               Navigation mode
